@@ -219,11 +219,11 @@
             "UPDATE": "*Your bot is completely up-to-date!*",
             "NEW_UPDATE": "*Pikachu Update Available*\n\n please ask support group before updating. Otherwise chance to get error\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "```Updating..🧚‍♂️```",
+            "UPDATING": "```Updating..🌀```",
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
-            "UPDATED": "*Updated 🤠✅*",
+            "UPDATED": "*Updated 🌈✅*",
             "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*😎 Pikachu Restarting*"
+            "AFTER_UPDATE": "*Blackzue is Restarting🩸🌈*"
         },
         "weather": {
             "WEATHER_DESC": "Shows the weather.",
