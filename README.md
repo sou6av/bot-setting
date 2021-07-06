@@ -20,7 +20,7 @@ Project created by <a href="https://github.com/aishwaryastenkasi">aishwaryastenk
 
   <p align="center">
   <a href="httsp://github.com/aishwaryastenkasi/aishu">
-    <img src="https://img.shields.io/github/repo-size/aishwaryatenkasi/aishu?color=green&label=Repo%20total%20size&style=plastic">
+    <img src="https://img.shields.io/github/repo-size/aishwaryastenkasi/aishu?color=green&label=Repo%20total%20size&style=plastic">
 <p align="center">
 <a href="https://github.com/aishwaryastenkasi/followers"><img title="Followers" src="https://img.shields.io/github/followers/aishwaryastenkasi?color=blue&style=flat-square"></a>
 <a href="https://github.com/aishwaryastenkasi/aishu/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/aishwaryastenkasi/aishu?color=blue&style=flat-square"></a>
