@@ -5,11 +5,11 @@
 <a href="#"><img title="aishu" src="https://img.shields.io/badge/aishu-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
-<a href="https://github.com/aishwaryastenkasi"><img title="Author" src="https://img.shields.io/badge/Author-aishwaryastenkasi/aishu?color=red&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/aishwaryastenkasi"><img title="Author" src="https://img.shields.io/badge/Author-aishwarya-stenkasi/aishu?color=red&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">
-Project created by <a href="https://github.com/aishwaryastenkasi">aishwaryatenkasi</a> to make it public
+Project created by <a href="https://github.com/aishwaryastenkasi">aishwaryastenkasi</a> to make it public
     <br>
        | © |
         Reserved |
@@ -36,7 +36,7 @@ Click WA logo to Join Support Group 👇
   [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/GUhzlg6Yhkj611fLl5HkpN)
   <div align="center">
        
-  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=aishwaryastenkasi&repo=PublicBot&theme=nightowl)](https://github.com/aishwaryastenkasi/aishu)
+  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=aishwaryastenkasi&repo=aishu&theme=nightowl)](https://github.com/aishwaryastenkasi/aishu)
   </div>
     
 ## Setup
