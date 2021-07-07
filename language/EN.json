@@ -190,7 +190,7 @@
             "UPLOADING_SONG": "\n*Uᴘʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ sᴏɴɢ 📲 Use 🎧 ғᴏʀ ʙᴇᴛᴛᴇʀ ᴇxᴘᴇʀɪᴇɴᴄᴇ..🌈*\n",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
-            "DOWNLOADING_VIDEO": "*Dᴏᴡɴʟᴏᴀᴅɪɴɢ 🎥...*",
+            "DOWNLOADING_VIDEO": "*Dᴏᴡɴʟᴏᴀᴅɪɴɢ...🎥*",
             "UPLOADING_VIDEO": "*Uᴘʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ ᴠɪᴅᴇᴏ...*",
             "YT_DESC": "It searchs on YouTube.",
             "NEED_WORDS": "*Pʟᴇᴀsᴇ ᴡʀɪᴛᴇ ᴀғᴇᴡ ᴡᴏʀᴅs!*",
@@ -199,7 +199,7 @@
             "SEARCHING": "*🔎 Sᴇᴀʀᴄʜɪɴɢ...*",
             "WIKI_DESC": "Searches query on Wikipedia.",
             "IMG_DESC": "Searches for related pics on Google.",
-            "IMG": "```Uᴘʟᴏᴀᴅɪɴɢ ᴘʜᴏᴛᴏ``` *{}* ɴᴜᴍʙᴇʀ *{}*"
+            "IMG": "*Uᴘʟᴏᴀᴅɪɴɢ* *{}* Pʜᴏᴛᴏs ᴏғ *{}*"
         },
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
