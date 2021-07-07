@@ -58,6 +58,12 @@ await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/amal.mp
         if (!!message.mention && message.mention[0] == '918330052290@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/jayapalan.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
+        if (!!message.mention && message.mention[0] == '916235989299@s.whatsapp.net') {
+await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/inyourarmsslow.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
+        }
+        if (!!message.mention && message.mention[0] == '919207899237@s.whatsapp.net') {
+await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/kozhi.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
+        }
 const array = ['amal','jayapalan','line','love','set']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
