@@ -89,5 +89,7 @@ if(pattern.test(message.message)){
         }
     );
 }));
-
-
+}
+else if (Config.WORKTYPE == 'public') {
+    
+    
