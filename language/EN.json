@@ -217,7 +217,7 @@
         "updater": {
             "UPDATER_DESC": "Checks the update.",
             "UPDATE": "*Your bot is completely up-to-date!*",
-            "NEW_UPDATE": "*Anjali Molkk Update unde*\n\n please ask support group before updating. Otherwise chance to get error\n\nChanges:\n```",
+            "NEW_UPDATE": "*Anjali Molkk Update unde*\n\n Anjaliye update cheyyunathinu munpe bot developer aaya vyathiyodu chodhichittu cheyyuka ! allenkil chilapol botinu thakaraarukal sambavichekkaam!\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
             "UPDATING": "```Update Cheyyunnu...👩🏻‍🔧```",
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
