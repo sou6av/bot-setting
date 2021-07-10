@@ -25,7 +25,7 @@ if (Config.WORKTYPE == 'private') {
         if (message.reply_message.video === false && message.reply_message.image) {
             ffmpeg(location)
                 .outputOptions(["-y", "-vcodec libwebp"])
-                .videoFilters('scale=600:600:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=600:600:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1')
+                .videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=600:600:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1')
                 .save('st.webp')
                 .on('end', async () => {
                     await message.sendMessage(fs.readFileSync('st.webp'), MessageType.sticker);
@@ -61,7 +61,7 @@ else if (Config.WORKTYPE == 'public') {
         if (message.reply_message.video === false && message.reply_message.image) {
             ffmpeg(location)
                 .outputOptions(["-y", "-vcodec libwebp"])
-                .videoFilters('scale=600:600:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=600:600:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1')
+                .videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=600:600:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1')
                 .save('st.webp')
                 .on('end', async () => {
                     await message.sendMessage(fs.readFileSync('st.webp'), MessageType.sticker);
