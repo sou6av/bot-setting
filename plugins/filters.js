@@ -73,6 +73,9 @@ await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/Amith.m
         if (!!message.mention && message.mention[0] == '918547207209@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/Navami.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
+        if (!!message.mention && message.mention[0] == '919539065403@s.whatsapp.net') {
+await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/Chaami.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
+        }
 
 const array = ['amal','jayapalan','line','love','set','Navami','Amith']
 array.map( async (a) => {
