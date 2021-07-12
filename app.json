@@ -3,23 +3,23 @@
     "description": "WhatsAsena project - Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
     "logo": "https://i.hizliresim.com/6Bbj7i.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/afnalplk/pikachu",
+    "repository": "https://github.com/aishwaryastenkasi/aishu",
     "website":   "https://t.me/phaticusthiccy",
     "success_url": "https://t.me/AsenaSupport",
     "stack": "container",
     "env": {
         "ASENA_SESSION": {
-            "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours Asena Session.",
+            "description": "Qr code ill vanna ASENA Code ivade paste cheyyu Settaa!",
             "required": true
         },
         "SUDO": {
-            "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 1205xxxxxxxxx (USA number +1)",
+            "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 916235xxx299 (Indian number +91)",
             "required": false
         },
         "LANGUAGE": {
             "description": "Bot language. Azerice => az, English => en, Türkçe => tr, Malayalam => ml, Hindi => HI, Indonesia => ID, Español => ES, Portuguese => pt, Russian => ru",
             "required": true,
-            "value": "TR"
+            "value": "EN"
         },
         "BGM_FILTER": {
             "description": "If you likes bgm you can write 'true'. Otherwise false",
@@ -42,114 +42,114 @@
             "value": "^[.!;]"
         },
         "FULL_EVA": {
-            "description": "Hesabınızı bir Chatbot'a Çevirin! Turn your account into a chatbot!",
+            "description": "നിങ്ങളുടെ WhatsApp അക്കൗണ്ടിൽ Chat Bot ആക്കി set ചെയ്യുന്നു. Activate ചെയ്യണമെങ്കിൽ true എന്ന് താഴെ type ചെയ്യുക! Turn your account into a chatbot! If you want to use it,Type true in the blank field",
             "required": true,
             "value": "false"
         },
         "NO_LOG": {
-            "description": "Hata logu görmek istemiyorsanız true yapın. Set true if you don't want to see error log.",
+            "description": "Error Log കാണിക്കണമെങ്കിൽ true എന്ന് താഴെ set ചെയ്യുക!. Set true if you don't want to see error log.",
             "required": true,
             "value": "false"
         },
         "SEND_READ": {
-            "description": "Görüldü atmak istiyorsanız true yazın. Write true if you want to throw seen.",
+            "description": "Message കണ്ടു എന്ന് അറിയിക്കണമെങ്കിൽ true എന്ന് ടൈപ്പുചെയ്യുക. Write true if you want to throw seen.",
             "required": true,
             "value": "true"
         },
         "HEROKU": {
-            "description": "Herokuda çalışıyorsa true yazın. If it is running in Heroku, type true.",
+            "description": "ഇതിൽ നിങ്ങൾ മാറ്റങ്ങൾ വരുത്തണ്ടതില്ല!If it is running in Heroku, type true.",
             "required": true,
             "value": "true"
         },
         "HEROKU_API_KEY": {
-            "description": "Herokuda API Keyiniz. Heroku API Key.",
+            "description": "Heroku ഇന്റെ API Key എടുത്ത് ഇവടെ പ്രതിഷ്ഠിക്കുക!(Heroku API KEY എടുക്കാൻ Heroku Account settingsil പോയിട്ട് താഴെ നോക്കുക അവടെ Reveal എന്ന option കൊടുത്തിട്ടുണ്ട് അതിൽ click ചെയുമ്പോൾ Left സൈഡിൽ ഒരു APIKEY കാണിക്കും.അത് Copy ചെയ്ത് ചുവടെ paste ചെയ്യുക.Type Heroku API Key(You can take it on Heroku Account settings option and scroll down Tap Reveal option,Then you can get the APIKEY.",
             "required": true
         },
         "MUTE_MESSAGE": {
-            "description": "Düzenlenebilir Mute Mesajı. Customizable Mute Message! Use => default, to change back.",
+            "description": "ഇതിൽ മാറ്റങ്ങൾ വരുത്തേണ്ടതില്ല.Customizable Mute Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "BLOCK_CHAT": {
-            "description": "Choose in which chat the bot won't work there. Ex: 905xxxx && 905xxxx-1xxx or 905xxxx,905xxx...",
+            "description": "ബോട്ട് ഏത്/ആരുടെ ചാറ്റിൽ പ്രവർത്തികപ്പെടേണ്ട എന്നുള്ളതു set ചെയ്യാൻ!(Block ഒന്നും ചെയ്യണ്ടങ്കിൽ മാറ്റം വെറുതേണ്ട )അഥവാ ബ്ലോക്ക്‌ ആക്കണമെങ്കിൽ Ex: ബോട്ടിന്റെ നമ്പർ Country കോഡ് ഉൾപ്പടെ && 905xxxx-1xxx or 905xxxx,905xxx...",
             "required": false,
             "value": "false"
         },
         "UNMUTE_MESSAGE": {
-            "description": "Düzenlenebilir Unmute Mesajı. Customizable Unmute Message! Use => default, to change back.",
+            "description": "ഇതിൽ മാറ്റങ്ങൾ വരുത്തേണ്ടതില്ല. Customizable Unmute Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "BLOCK_MESSAGE": {
-            "description": "Düzenlenebilir Block Mesajı. Customizable Block Message! Use => default, to change back.",
+            "description": "Message ഉകൾ ബ്ലോക്ക്‌ ചെയ്യുക.(മാറ്റങ്ങൾ വരുത്തേണ്ടതില്ല). Customizable Block Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "UNBLOCK_MESSAGE": {
-            "description": "Düzenlenebilir Unblock Mesajı. Customizable Unblock Message! Use => default, to change back.",
+            "description": "Message ഉകൾ unblock ചെയ്യുക.(മാറ്റങ്ങൾ വരുത്തേണ്ടതില്ല).Customizable Unblock Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "WORK_TYPE": {
-            "description": "WhatsAsena Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+            "description": ""Meenakshi Working Type. നിങ്ങൾ" public "ഉപയോഗിക്കുകയാണെങ്കിൽ, എല്ലാവർക്കും ബോട്ട് ഉപയോഗിക്കാം. അല്ലെങ്കിൽ നിങ്ങൾ" private "ഉപയോഗിക്കുകയാണെങ്കിൽ, നിങ്ങൾക്ക് മാത്രമേ നിങ്ങളുടെ ബോട്ട് ഉപയോഗിക്കാൻ കഴിയൂ. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
             "required": true,
-            "value": "private"
+            "value": "public"
         },
         "HEROKU_APP_NAME": {
             "description": "Herokuda uygulama adı. Heroku APP Name.",
             "required": true
         },
         "DEBUG": {
-            "description": "Geliştiricilere özeldir.",
+            "description": "ഡവലപ്പർമാർക്ക് മാത്രമായുള്ളത്(മാറ്റങ്ങൾ വരുത്തരുത്).",
             "required": true,
             "value": "false"
         },
         "REMOVE_BG_API_KEY": {
-            "description": "Fotoğrafların arkaplanını kaldırır. https://remove.bg",
+            "description": "APIKEY കിട്ടണമെങ്കിൽ https://remove.bg എന്ന websiteill കേറി login ചെയ്തു wwebsite ഇന്റെ option ഇൽ click ചെയ്യുമ്പോൾ My dashboard എന്നാ option കാണും അതിൽ tap ചെയ്ത് APIKEY എന്ന് കൊടുത്തേക്കുനടുത് tap ചെയ്യുക എന്നിട്ട് അതിൽ കാണുന്ന apikey copy paste ചെയ്യൂ (ഇതിന്റെ ഉപയോഗം : നിങ്ങൾ അയക്കുന്ന ഫോട്ടോയുടെ Background പൂർണമായും മായിച്ചു വൃത്തിയാക്കി തരുന്നു,വേണമെങ്കിൽ ചെയ്താൽ മതി നിർബന്ധം ഇല്ല 😄",
             "required": false
         },
         "ALIVE_MESSAGE": {
-            "description": "Customizable Alive Message! Use => default, to change back.",
+            "description": "നിങ്ങൾക് ഇഷ്ടമുള്ള alive message കൊടുക്കാം.Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "default"
+            "value": "Meenakshi Is Alive-Codded by vishnu-kayamkulam"
         },
         "BAN_MESSAGE": {
-            "description": "Customizable Ban Message! Use => default, to change back.",
+            "description": "(മാറ്റങ്ങൾ വരുത്തേണ്ടതില്ല)Customizable Ban Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "ADD_MESSAGE": {
-            "description": "Customizable Add Message! Use => default, to change back.",
+            "description": "(മാറ്റങ്ങൾ വരുത്തേണ്ടതില്ല)Customizable Add Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "KICKME_MESSAGE": {
-            "description": "Customizable Kickme Message! Use => default, to change back.",
+            "description": "(മാറ്റങ്ങൾ വരുത്തേണ്ടതില്ല)Customizable Kickme Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "PROMOTE_MESSAGE": {
-            "description": "Customizable Promote Message! Use => default, to change back.",
+            "description": "(മാറ്റങ്ങൾ വരുത്തേണ്ടതില്ല)Customizable Promote Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "DEMOTE_MESSAGE": {
-            "description": "Customizable Demote Message! Use => default, to change back.",
+            "description": "(മാറ്റങ്ങൾ വരുത്തേണ്ടതില്ല)Customizable Demote Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "AFK_MESSAGE": {
-            "description": "Customizable AFK Message! Use => default, to change back.",
+            "description": "(മാറ്റങ്ങൾ വരുത്തേണ്ടതില്ല)Customizable AFK Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "GAN_IMAGE": {
-            "description": "Gan Style eklentisi için resim bağlantısı yazın. Type image link for Gan Style plugin.",
+            "description": "(മാറ്റങ്ങൾ വരുത്തേണ്ടതില്ല). Type image link for Gan Style plugin.",
             "required": true,
             "value": "https://i.hizliresim.com/loUtAb.jpg"
         },
         "NO_ONLINE": {
-            "description": "Çevrimiçi görünmek istemiyorsanız true yazın. Type true if you don't want to appear online.",
+            "description": "നിങ്ങളുടെ bot ഓൺലൈനിൽ ഉണ്ട് എന്നുകാണിക്കാൻ true എന്ന് ടൈപ്പുചെയ്യുക. Type true if you don't want to appear online.",
             "required": false,
             "value": "true"
         },
