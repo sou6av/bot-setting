@@ -13,7 +13,7 @@
             "required": true
         },
         "SUDO": {
-            "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 1205xxxxxxxxx (USA number +1)",
+            "description": "Sudo എന്ന് വെച്ചാൽ നമ്മൾക്കു നമ്മടെ ബോട്ടിനെ നമ്മുടെ വേറെ ഏതെങ്കിലും whatsapp നമ്പർ വഴി ബോട്ടിനെ Setting ചെയ്യാൻ പറ്റും! Sudo mode activate ചെയ്യാൻ ചുവടെ കാണുന്ന കളത്തിൽ ആദ്യം നമ്മുടെ ബോട്ടിന്റെ നമ്പർ country code ഉൾപ്പടെ Enter ചെയ്തതിനു ശേഷം `+´ ഇടേണ്ട ആവശ്യം ഇല്ല അതിനു ശേഷം,0,ബോട്ടിനെ കൈകാര്യം ചെയ്യാൻ ഉള്ള നമ്പർ (ഉദാഹരണം: 919876543210,0,919090909090! എന്ന് Type ചെയ്തു വെക്കുക ",
             "required": false
         },
         "LANGUAGE": {
@@ -22,27 +22,27 @@
             "value": "TR"
         },
         "BGM_FILTER": {
-            "description": "If you likes bgm you can write 'true'. Otherwise false",
+            "description": "BGM activate ചെയ്യാൻ 'true' എന്ന് ചുവടെ കൊടുക്കുക, വേണ്ടങ്കിൽ false എന്ന് കൊടുക്കുക .You want to activate BGM's set true,Otherwise false",
             "required": false,
             "value": "true"
         },
         "ANTİ_LİNK": {
-            "description": "Link Engelleme Sistemi. Link Blocking System.",
+            "description": "ലിങ്കുകൾ ബ്ലോക്ക്‌ ആകുന്നു. Link Blocking System.",
             "required": true,
             "value": "false"
         },
         "AUTO_BİO": {
-            "description": "Duruma otomatik tarih ve zaman eklemek için true yapın. Set true for auto date, time in biography.",
+            "description": "യാന്ത്രിക തീയതി,സമയം എന്നിവ നിങ്ങളുടെ about ഇൽ set ചെയ്യാൻ true എന്ന് കൊടുക്കുക. Set true for auto date, time in biography.",
             "required": true,
             "value": "false"
         },
         "HANDLERS": {
-            "description": "Komutlar için. For commands.",
+            "description": "കമാണ്ടുകള്ക്കായി. For commands.",
             "required": true,
             "value": "^[.!;]"
         },
         "FULL_EVA": {
-            "description": "Hesabınızı bir Chatbot'a Çevirin! Turn your account into a chatbot!",
+            "description": "നിങ്ങളുടെ bot ഇനെ പൂർണമായും ഒരു Chat Bot (GoogleAssistant) പോലെ ആക്കി മാറ്റുന്നു Set ചെയ്യാൻ true കൊടുക്കുക! Turn your account into a chatbot!",
             "required": true,
             "value": "false"
         },
@@ -52,7 +52,7 @@
             "value": "false"
         },
         "SEND_READ": {
-            "description": "Görüldü atmak istiyorsanız true yazın. Write true if you want to throw seen.",
+            "description": "അയക്കുന്ന വ്യക്തിയുടെ messageഉകൾ കണ്ടു എന്ന് അറിയാൻ ഉള്ള setting. Write true if you want to throw seen.",
             "required": true,
             "value": "true"
         },
