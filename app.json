@@ -1,6 +1,6 @@
 {
     "name": "Meenakshi",
-    "description": "Meenakshi(WhatsAsena Duplicated)project - Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
+    "description": "Meenakshi(Modified version of WhatsAsena)project - Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
     "logo": "https://i.hizliresim.com/m13agyp.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
     "repository": "https://github.com/afnalplk/pikachu",
@@ -9,7 +9,7 @@
     "stack": "container",
     "env": {
         "ASENA_SESSION": {
-            "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours Asena Session.",
+            "description": "QR code scan ആക്കിയപ്പോൾ കിട്ടിയ കോഡ് ഇവടെ പ്രതിഷ്ഠിച്ചു വെക്കുക. Type here yours Asena Session.",
             "required": true
         },
         "SUDO": {
