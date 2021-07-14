@@ -9,7 +9,7 @@
     "stack": "container",
     "env": {
         "ASENA_SESSION": {
-            "description": "QR code scan ആക്കിയപ്പോൾ കിട്ടിയ കോഡ് ഇവടെ പ്രതിഷ്ഠിച്ചു വെക്കുക. Type here yours Asena Session.",
+            "description": "QR code scan ആക്കിയപ്പോൾ കിട്ടിയ കോഡ് ഇവടെ Paste ചെയ്യുക. Type here yours Asena Session.",
             "required": true
         },
         "SUDO": {
@@ -91,7 +91,7 @@
             "value": "default"
         },
         "WORK_TYPE": {
-            "description": "WhatsAsena Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+            "description": "WhatsAsena Working Type. താഴെ `public´ ഉപയോഗിക്കുകയാണെങ്കിൽ, എല്ലാവർക്കും ബോട്ട് ഉപയോഗിക്കാം. അല്ലെങ്കിൽ നിങ്ങൾ “private” ഉപയോഗിക്കുകയാണെങ്കിൽ, നിങ്ങൾക്ക് മാത്രമേ നിങ്ങളുടെ ബോട്ട് ഉപയോഗിക്കാൻ കഴിയൂ! If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
             "required": true,
             "value": "private"
         },
@@ -105,7 +105,7 @@
             "value": "false"
         },
         "REMOVE_BG_API_KEY": {
-            "description": "Fotoğrafların arkaplanını kaldırır. https://remove.bg",
+            "description": "ഒരു ഫോട്ടോയുടെ Background clear ചെയ്തു തരുന്ന ടൂൾ (https://remove.bg) ഈ link പോയിട്ട് login ചെയ്തു APIKEY എടുത്ത് താഴെ paste ചെയ്യുക (ഇത് നിങ്ങൾക്കു ആവശ്യം ഇല്ലങ്കിൽ ഒഴിവാക്കുക)",
             "required": false
         },
         "ALIVE_MESSAGE": {
