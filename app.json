@@ -1,6 +1,6 @@
 {
     "name": "Meenakshi",
-    "description": "Meenakshi(Modified version of WhatsAsena)project - Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
+    "description": "Meenakshi(Modified version of WhatsAsena)- Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
     "logo": "https://i.hizliresim.com/m13agyp.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
     "repository": "https://github.com/afnalplk/pikachu",
@@ -13,7 +13,7 @@
             "required": true
         },
         "SUDO": {
-            "description": "Sudo എന്ന് വെച്ചാൽ നമ്മൾക്കു നമ്മടെ ബോട്ടിനെ നമ്മുടെ വേറെ ഏതെങ്കിലും whatsapp നമ്പർ വഴി ബോട്ടിനെ Setting ചെയ്യാൻ പറ്റും! Sudo mode activate ചെയ്യാൻ ചുവടെ കാണുന്ന കളത്തിൽ ആദ്യം നമ്മുടെ ബോട്ടിന്റെ നമ്പർ country code ഉൾപ്പടെ Enter ചെയ്തതിനു ശേഷം `+´ ഇടേണ്ട ആവശ്യം ഇല്ല അതിനു ശേഷം,0,ബോട്ടിനെ കൈകാര്യം ചെയ്യാൻ ഉള്ള നമ്പർ (ഉദാഹരണം: 919876543210,0,919090909090! എന്ന് Type ചെയ്തു വെക്കുക ",
+            "description": "Sudo എന്ന് വെച്ചാൽ നമ്മൾക്കു നമ്മടെ ബോട്ടിനെ നമ്മുടെ വേറെ ഏതെങ്കിലും whatsapp നമ്പർ വഴി ബോട്ടിനെ Setting ചെയ്യാൻ പറ്റും! Sudo mode activate ചെയ്യാൻ ചുവടെ കാണുന്ന കളത്തിൽ ആദ്യം നമ്മുടെ ബോട്ടിന്റെ നമ്പർ country code ഉൾപ്പടെ Enter ചെയ്തതിനു ശേഷം `+´ ഇടേണ്ട ആവശ്യം ഇല്ല അതിനു ശേഷം,0,Add ചെയ്യേണ്ട നമ്പർ (ഉദാഹരണം: 919876543210,0,919090909090! എന്ന് Type ചെയ്തു വെക്കുക",
             "required": false
         },
         "LANGUAGE": {
@@ -47,26 +47,26 @@
             "value": "false"
         },
         "NO_LOG": {
-            "description": "Hata logu görmek istemiyorsanız true yapın. Set true if you don't want to see error log.",
+            "description": "ബോട്ടിന്റെ ലോഗുകൾ കാണിക്കുന്നു. Set true if you don't want to see error log.",
             "required": true,
             "value": "false"
         },
         "SEND_READ": {
-            "description": "അയക്കുന്ന വ്യക്തിയുടെ messageഉകൾ കണ്ടു എന്ന് അറിയാൻ ഉള്ള setting. Write true if you want to throw seen.",
+            "description": "അയച്ച മെസ്സേജ് Bot കണ്ടു എന്ന് അറിയാൻ ഉള്ള setting. Write true if you want to throw seen.",
             "required": true,
             "value": "true"
         },
         "HEROKU": {
-            "description": "Herokuda çalışıyorsa true yazın. If it is running in Heroku, type true.",
+            "description": "If it is running in Heroku, type true.",
             "required": true,
             "value": "true"
         },
         "HEROKU_API_KEY": {
-            "description": "Herokuda API Keyiniz. Heroku API Key.",
+            "description": "Heroku APIKEY ഇവടെ enter ചെയ്യുക! Herokuvinte Account settingsഇൽ API-KEY ഉണ്ട്.Enter Heroku API Key.",
             "required": true
         },
         "MUTE_MESSAGE": {
-            "description": "Düzenlenebilir Mute Mesajı. Customizable Mute Message! Use => default, to change back.",
+            "description": "Whatsapp Group close ആക്കുമ്പോൾ വരേണ്ട message ഇവടെ type ചെയ്യുക. Customizable Mute Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
@@ -144,12 +144,12 @@
             "value": "default"
         },
         "GAN_IMAGE": {
-            "description": "Gan Style eklentisi için resim bağlantısı yazın. Type image link for Gan Style plugin.",
+            "description": "Type image link for Gan Style plugin.",
             "required": true,
             "value": "https://i.hizliresim.com/loUtAb.jpg"
         },
         "NO_ONLINE": {
-            "description": "Çevrimiçi görünmek istemiyorsanız true yazın. Type true if you don't want to appear online.",
+            "description": "Bot Online ill കാണിക്കാതിരിക്കാൻ True കൊടുക്കുക!അല്ലെങ്കിൽ false. Type true if you don't want to appear online.",
             "required": false,
             "value": "true"
         },
