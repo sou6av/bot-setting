@@ -2,7 +2,7 @@
 <div align="center">
   <img border-radius: 15px src="https://i.imgur.com/W60IYHd.jpeg" width="300" height="200"/>
   <p align="center">
-<a href="#"><img title="JulieMwol" src="https://img.shields.io/badge/JulieMwol-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="UnniKuttan" src="https://img.shields.io/badge/UnniKuttan-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
 <a href="https://github.com/farhan-dqz"><img title="Author" src="https://img.shields.io/badge/Author-farhan-dqz/JulieMwol?color=red&style=for-the-badge&logo=whatsapp"></a>
@@ -20,7 +20,7 @@ Project created by <a href="https://github.com/farhan-dqz">Farhan-dqz</a> to mak
 
   <p align="center">
   <a href="httsp://github.com/farhan-dqz/JulieMwol">
-    <img src="https://img.shields.io/github/repo-size/farhan-dqz/JulieMwol?color=green&label=Repo%20total%20size&style=plastic">
+    <img src="https://img.shields.io/github/repo-size/farhan-dqz/UnniKuttan?color=green&label=Repo%20total%20size&style=plastic">
 <p align="center">
 <a href="https://github.com/farhan-dqz/followers"><img title="Followers" src="https://img.shields.io/github/followers/farhan-dqz?color=blue&style=flat-square"></a>
 <a href="https://github.com/farhan-dqz/JulieMwol/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/farhan-dqz/JulieMwol?color=blue&style=flat-square"></a>
