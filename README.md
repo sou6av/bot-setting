@@ -87,11 +87,7 @@ Absolutely, Asena executives do not accept responsibility.
 By establishing the Asena, you are deemed to have accepted these responsibilities.
 ```
 
-## Developers
-  <div align="center">
-    
-  [![Madhav MN](https://github.com/madhav30092006/UnniKuttan.png?size=100)]
-Base, Bug Fixes, Modules | Modifiying  as   public | Bug Fixes, Modules
+
   </div>
     
 
