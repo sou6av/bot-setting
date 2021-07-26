@@ -10,7 +10,7 @@ if (Config.WORKTYPE == 'private') {
 
     var r_text = new Array ();
     
-    r_text[1] = "*╔═════😎Pikachu😎═════╗*\n           \n*⚜═Pikachu═⚜*\n\n*owner AmeerSuhail - http://Wa.me/+919946432377*\n* *\n🔰instagram:-https://www.instagram.com/ameer_.su_hail?r=nametag*            *\n*╚══════🔱🔱🔱🔱🔱═════╝*\n\n*▷Creator: AmeerSuhail*"
+    r_text[1] = "*╔═════😎Pikachu😎═════╗*\n           \n*⚜═Pikachu═⚜*\n\n*owner Kamaru AK- http://Wa.me/+919995282316*\n* *\n🔰instagram:-https://www.instagram.com/ameer_.su_hail?r=nametag*            *\n*╚══════🔱🔱🔱🔱🔱═════╝*\n\n*▷Creator: AmeerSuhail*"
 
     
     await message.client.sendMessage(
@@ -39,7 +39,7 @@ if (Config.WORKTYPE == 'private') {
 
     var r_text = new Array ();
     
-    r_text[1] = "*╔═════😎Pikachu😎═════╗*\n           \n*⚜═Pikachu═⚜*\n\n*owner AmeerSuhail - http://Wa.me/+919946432377*\n* *\n🔰instagram:-https://www.instagram.com/ameer_.su_hail?r=nametag*            *\n*╚══════🔱🔱🔱🔱🔱═════╝*\n\n*▷Creator: AmeerSuhail*"
+    r_text[1] = "*╔═════😎Pikachu😎═════╗*\n           \n*⚜═Pikachu═⚜*\n\n*owner Kamaru AK- http://Wa.me/+919995282316*\n* *\n🔰instagram:-https://www.instagram.com/ameer_.su_hail?r=nametag*            *\n*╚══════🔱🔱🔱🔱🔱═════╝*\n\n*▷Creator: AmeerSuhail*"
 
     
     await message.client.sendMessage(
