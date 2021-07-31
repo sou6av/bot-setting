@@ -19,8 +19,7 @@ Project created by <a href="https://github.com/saidalisaid2">saidali</a> to make
 <div align="center">
 instagram 
   <div align="center">
-    
-  [![ꜱͥᴀͭɪᴅᷤᴀᷟʟͤɪ](https://www.linkpicture.com/q/images-12_42.jpeg?size="20")](https://instagram.com/pavam_n_a_n)
+  
 
 
 
