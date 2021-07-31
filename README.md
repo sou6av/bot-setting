@@ -10,7 +10,7 @@
 </p>
 </div>
 <p align="center">
-Project created by <a href="https://github.com/Raashii">saidali</a> to make it public
+Project created by <a href="https://github.com/Raashii">Raashii & Priyan</a> to make it public
     <br>
        | © |
         Reserved |
@@ -24,7 +24,7 @@ instagram
 
 
   <p align="center">
-  <a href="httsp://github.com/saidalisaid2/LiyaMol">
+  <a href="httsp://github.com/Raashii/Zara">
     <img src="https://img.shields.io/github/repo-size/farhan-dqz/JulieMwol?color=green&label=Repo%20total%20size&style=plastic">
 <p align="center">
 <a href="https://github.com/saidalisaid2/followers"><img title="Followers" src="https://img.shields.io/github/followers/saidalisaid2?color=blue&style=flat-square"></a>
@@ -60,7 +60,7 @@ If Repl.it not working Try Termux for Qr scanning.Just Copy the Link Below in Te
 bash <(curl -L https://t.ly/tHxh)
 ``` 
   
-### ꜱͥᴀͭɪᴅᷤᴀᷟʟͤɪ 
+### 𝘳𝘢𝘢𝘴𝘩𝘪𝘪 & 𝘱𝘳𝘪𝘺𝘢𝘯
 
 
 ### ⚠️ Warning! 
@@ -74,9 +74,9 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ## Developers
   <div align="center">
     
-  [![saidali](https://i.imgur.com/MZDCN2M.jpeg?size=100)](https://github.com/saidalisaid2) |  
+  [![Priyan](https://i.imgur.com/MZDCN2M.jpeg?size=100)](https://github.com/J0kerser) |  
 ----|
-[ꜱͥᴀͭɪᴅᷤᴀᷟʟͤɪ](https://github.com/saidalisaid2)  |
+[ʀᴀᴀssʜɪɪ](https://github.com/Raashii)  |
 Base, Bug Fixes, Modules | 
   
     
