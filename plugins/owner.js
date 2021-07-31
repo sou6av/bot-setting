@@ -11,24 +11,24 @@ Asena.addCommand({pattern: 'owner', fromMe: false, desc: Lang.WP}, (async (messa
     
     
    
-  r_text[0] = "https://i.imgur.com/MZDCN2M.jpeg";
+  r_text[0] = "https://i.ibb.co/XjDC6sP/IMG-20210731-WA0008.jpg";
     
     
     var i = Math.floor(1*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*creater Saidali*
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*creater Raashii & Priyan*
 
-*bgm updation akku*
 
-*owner number wa.me/918606759500*
 
-*githublink       https://github.com/saidalisaid2/LiyaMol*
+*owner number wa.me/916282120758*
 
-*audio commads    https://github.com/saidalisaid2/LiyaMol/tree/master/uploads*
+*githublink       https://github.com/Raashii/Zara*
 
-*sticker commads  https://github.com/saidalisaid2/LiyaMol/tree/master/stickers*
+*audio commads    https://github.com/Raashii/Zara/tree/master/uploads*
+
+*sticker commads  https://github.com/Raashii/Zara/tree/master/stickers*
 
 `}) 
 
