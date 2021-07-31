@@ -1,5 +1,5 @@
 <div align="center">
-ꜱͥᴀͭɪᴅᷤᴀᷟʟͤɪ 
+𝘳𝘢𝘢𝘴𝘩𝘪𝘪 & 𝘱𝘳𝘪𝘺𝘢𝘯
 <div align="center">
   <img border-radius: 15px src="https://i.imgur.com/MZDCN2M.jpeg" width="200" height="200"/>
   <p align="center">
