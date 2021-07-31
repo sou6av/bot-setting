@@ -1,7 +1,7 @@
 {
-    "name": "LiyaMol",
+    "name": "Zara",
     "description": "WhatsAsena project - Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
-    "logo": "https://i.imgur.com/MZDCN2M.jpeg",
+    "logo": "https://i.ibb.co/XjDC6sP/IMG-20210731-WA0008.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
     "repository": "https://github.com/Raashii/Zara",
     "website":   "https://t.me/phaticusthiccy",
@@ -117,7 +117,7 @@
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "\n ```I Am Alive !!!```\n\n```Type``` *.help* ```for commands```"
+            "value": "\n ```I Am Alive !!!```\n\n```Type``` *.help* ```for commands```\n\n```Zara👧```"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
