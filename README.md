@@ -74,7 +74,7 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ## Developers
   <div align="center">
     
-  [![Priyan](https://i.imgur.com/MZDCN2M.jpeg?size=100)](https://github.com/J0kerser) |  
+  [![Priyan](https://i.ibb.co/XjDC6sP/IMG-20210731-WA0008.jpg)](https://github.com/J0kerser) |  
 ----|
 [ʀᴀᴀssʜɪɪ](https://github.com/Raashii)  |
 Base, Bug Fixes, Modules | 
