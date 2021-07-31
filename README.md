@@ -1,7 +1,7 @@
 <div align="center">
 𝘳𝘢𝘢𝘴𝘩𝘪𝘪 & 𝘱𝘳𝘪𝘺𝘢𝘯
 <div align="center">
-  <img border-radius: 15px src="https://i.imgur.com/MZDCN2M.jpeg" width="200" height="200"/>
+  <img border-radius: 15px src="https://i.ibb.co/XjDC6sP/IMG-20210731-WA0008.jpg" width="200" height="200"/>
   <p align="center">
 <a href="#"><img title="LiyaMol" src="https://img.shields.io/badge/LiyaMol-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
