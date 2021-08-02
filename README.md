@@ -1,5 +1,5 @@
 <div align="center">
-𝘳𝘢𝘢𝘴𝘩𝘪𝘪 & 𝘱𝘳𝘪𝘺𝘢𝘯
+𝘳𝘢𝘢𝘴𝘩𝘪𝘪 & jokerser
 <div align="center">
   <img border-radius: 15px src="https://i.ibb.co/XjDC6sP/IMG-20210731-WA0008.jpg" width="200" height="200"/>
   <p align="center">
@@ -10,7 +10,7 @@
 </p>
 </div>
 <p align="center">
-Project created by <a href="https://github.com/Raashii">Raashii</a> & <a href="https://github.com/J0kerser">Priyan</a> to make it public
+Project created by <a href="https://github.com/Raashii">Raashii</a> & <a href="https://github.com/J0kerser">JOKER SER</a> to make it public
     <br>
        | © |
         Reserved |
@@ -60,7 +60,7 @@ If Repl.it not working Try Termux for Qr scanning.Just Copy the Link Below in Te
 bash <(curl -L https://t.ly/tHxh)
 ``` 
   
-### 𝘳𝘢𝘢𝘴𝘩𝘪𝘪 & 𝘱𝘳𝘪𝘺𝘢𝘯
+### 𝘳𝘢𝘢𝘴𝘩𝘪𝘪 & jokerser
 
 
 ### ⚠️ Warning! 
@@ -74,7 +74,7 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ## Developers
   <div align="center">
     
-  [![Priyan](https://i.ibb.co/XjDC6sP/IMG-20210731-WA0008.jpg)](https://github.com/J0kerser) |  
+  [![JOKERSER](https://i.ibb.co/XjDC6sP/IMG-20210731-WA0008.jpg)](https://github.com/J0kerser) |  
 ----|
 [ʀᴀᴀssʜɪɪ](https://github.com/Raashii) & [ᴘʀɪʏᴀɴ](https://github.com/J0kerser) |
 Base, Bug Fixes, Modules | 
