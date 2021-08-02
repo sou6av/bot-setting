@@ -76,7 +76,7 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
     
   [![JOKERSER](https://i.ibb.co/XjDC6sP/IMG-20210731-WA0008.jpg)](https://github.com/J0kerser) |  
 ----|
-[ʀᴀᴀssʜɪɪ](https://github.com/Raashii) & [ᴘʀɪʏᴀɴ](https://github.com/J0kerser) |
+[ʀᴀᴀssʜɪɪ](https://github.com/Raashii) & [ᴊᴏᴋᴇʀsᴇʀ](https://github.com/J0kerser) |
 Base, Bug Fixes, Modules | 
   
     
