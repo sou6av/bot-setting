@@ -73,7 +73,7 @@
         },
         "heroku": {
             "RESTART_DESC": "Restart WhatsAsena",
-            "RESTART_MSG": "```Zara Restarting...please wait few minits```",
+            "RESTART_MSG": "```Zara Restarting...please wait few minutes```",
             "SHUTDOWN_DESC": "Shutdown WhatsAsena",
             "SHUTDOWN_MSG": "```Shutting down ⛔```",
             "DYNO_DESC": "Check heroku dyno usage",
@@ -166,9 +166,9 @@
         },
         "removebg": {
             "REMOVEBG_DESC": "Removes the background of the photos.",
-            "NEED_PHOTO": "*photo thaa mister!*",
+            "NEED_PHOTO": "*photo replay ayi ayakkende boss!*",
             "NO_API_KEY": "*mothalali nood api key vekkan para*\n```remove.bg login for apikey```",
-            "RBGING": "```Removing...```"
+            "RBGING": "```ippo sheri akki thera🌬️```"
         },
         "scrapers": {
             "TRANSLATE_DESC": "It translates with Google Translate. You must reply any message.",
@@ -186,7 +186,7 @@
             "SONG_DESC": "Uploads the song you wrote.",
             "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song theerame```",
             "NO_RESULT": "*I couldn't find anything :(*",
-            "DOWNLOADING_SONG": "\n*Search cheyyuvanu kittya send cheyya 🌚*\n",
+            "DOWNLOADING_SONG": "\n*Searching... anu kittya send cheyya 🌚*\n",
             "UPLOADING_SONG": "\n*sadhanam ippo verum & cheviyil vekkunna suna vechall nalla expriyans ayirikkum*\n",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link! link therathe njan yanth cheyyana*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
@@ -194,7 +194,7 @@
             "UPLOADING_VIDEO": "```Uploading... Athu pore aliya😼```",
             "YT_DESC": "It searchs on YouTube.",
             "NEED_WORDS": "```Please write a few words!```",
-            "GETTING_VIDEOS": "```I'm bringing videos...```",
+            "GETTING_VIDEOS": "```Ippo sheri akki thera...```",
             "NOT_FOUND": "*Thappinokeett kittiyilla ☹️ sry nenba*",
             "SEARCHING": "*🔎 Searching...*",
             "WIKI_DESC": "Searches query on Wikipedia.",
@@ -447,7 +447,7 @@
             "NEED_WORD": "*You must enter words!*",
             "ANIME_DESC": "It writes the text inside the banner the anime girl is holding",
             "TRUMP_DESC": "Converts the text to Trump's tweet.",
-            "EMOJI_DESC": "Convert the emoji to sticker.",
+            "EMOJI_DESC": "Convert the emoji to png.",
             "CHANGE_DESC": "Turns the text into the change my mind poster."
        },
        "anime": { 
