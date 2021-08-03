@@ -16,8 +16,7 @@ if (Config.WORKTYPE == 'private') {
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
         var uri = encodeURI(match[1])
         var ttinullimage = await axios.get('https://api.zeks.xyz/api/emoji-image?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&emoji=' + uri, { responseType: 'arraybuffer' })
-        await message.client.sendMessage(message.jid,fs.readFileSync('rbg.png'), MessageType.document, {filename: 'Zara.png', mimetype: Mimetype.png});
-        await load.delete();
+        await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.document, {filename: 'Zara.png', mimetype: Mimetype.png});
     }));
 }
 else if (Config.WORKTYPE == 'public') {
@@ -25,7 +24,6 @@ else if (Config.WORKTYPE == 'public') {
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
         var uri = encodeURI(match[1])
         var ttinullimage = await axios.get('https://api.zeks.xyz/api/emoji-image?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&emoji=' + uri, { responseType: 'arraybuffer' })
-        await message.client.sendMessage(message.jid,fs.readFileSync('rbg.png'), MessageType.document, {filename: 'Zara.png', mimetype: Mimetype.png});
-        await load.delete();
+        await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.document, {filename: 'Zara.png', mimetype: Mimetype.png});
     }));
 }
