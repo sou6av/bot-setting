@@ -235,7 +235,9 @@
             "DESC": "Description",
             "FEEL": "Feels Like",
             "HUMI": "Humidity",
-            "LINK": "pintrest links"
+            "LINK": "pintrest links",
+            "PINTREST": "Get pintrest links",
+            "NEEDWORD": "need word",
             "WIND": "Wind Speed",
             "CLOUD": "Cloud",
             "NOT_FOUND": "```I couldn't find a city with this name. 😖```",
