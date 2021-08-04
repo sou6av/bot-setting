@@ -125,7 +125,7 @@ else if (Config.WORKTYPE == 'public') {
 
   }));
 
-Asena.addCommand({ pattern: 'zlogo2 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+Asena.addCommand({ pattern: 'zlogo2 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
   if (match[1] === '') return await message.sendMessage(need);
 
@@ -135,7 +135,7 @@ Asena.addCommand({ pattern: 'zlogo2 ?(.*)', fromMe: true, dontAddCommandList: tr
 
 }));
 
-Asena.addCommand({ pattern: 'zlogo3 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+Asena.addCommand({ pattern: 'zlogo3 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
   if (match[1] === '') return await message.sendMessage(need);
 
@@ -145,7 +145,7 @@ Asena.addCommand({ pattern: 'zlogo3 ?(.*)', fromMe: true, dontAddCommandList: tr
 
 }));
 
-Asena.addCommand({ pattern: 'zlogo4 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+Asena.addCommand({ pattern: 'zlogo4 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
   if (match[1] === '') return await message.sendMessage(need);
 
@@ -155,7 +155,7 @@ Asena.addCommand({ pattern: 'zlogo4 ?(.*)', fromMe: true, dontAddCommandList: tr
 
 }));
 
-Asena.addCommand({ pattern: 'zlogo5 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+Asena.addCommand({ pattern: 'zlogo5 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
   if (match[1] === '') return await message.sendMessage(need);
 
@@ -165,7 +165,7 @@ Asena.addCommand({ pattern: 'zlogo5 ?(.*)', fromMe: true, dontAddCommandList: tr
 
 }));
 
-Asena.addCommand({ pattern: 'zlogo6 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+Asena.addCommand({ pattern: 'zlogo6 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
   if (match[1] === '') return await message.sendMessage(need);
 
@@ -175,7 +175,7 @@ Asena.addCommand({ pattern: 'zlogo6 ?(.*)', fromMe: true, dontAddCommandList: tr
 
 }));
 
-Asena.addCommand({ pattern: 'zlogo7 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+Asena.addCommand({ pattern: 'zlogo7 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
   if (match[1] === '') return await message.sendMessage(need);
 
@@ -185,7 +185,7 @@ Asena.addCommand({ pattern: 'zlogo7 ?(.*)', fromMe: true, dontAddCommandList: tr
 
 }));
 
-Asena.addCommand({ pattern: 'zlogo8 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+Asena.addCommand({ pattern: 'zlogo8 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
   if (match[1] === '') return await message.sendMessage(need);
 
@@ -195,7 +195,7 @@ Asena.addCommand({ pattern: 'zlogo8 ?(.*)', fromMe: true, dontAddCommandList: tr
 
 }));
 
-Asena.addCommand({ pattern: 'zlogo9 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+Asena.addCommand({ pattern: 'zlogo9 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
   if (match[1] === '') return await message.sendMessage(need);
 
@@ -205,7 +205,7 @@ Asena.addCommand({ pattern: 'zlogo9 ?(.*)', fromMe: true, dontAddCommandList: tr
 
 }));
 
-Asena.addCommand({ pattern: 'zlogo10 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+Asena.addCommand({ pattern: 'zlogo10 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
   if (match[1] === '') return await message.sendMessage(need);
 
