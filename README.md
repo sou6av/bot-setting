@@ -1,5 +1,5 @@
 <div align="center">
-𝘳𝘢𝘢𝘴𝘩𝘪𝘪 & jokerser
+raashii & jokerser
 <div align="center">
   <img border-radius: 15px src="https://i.ibb.co/XjDC6sP/IMG-20210731-WA0008.jpg" width="200" height="200"/>
   <p align="center">
@@ -27,10 +27,10 @@ instagram
   <a href="httsp://github.com/Raashii/Zara">
     <img src="https://img.shields.io/github/repo-size/farhan-dqz/JulieMwol?color=green&label=Repo%20total%20size&style=plastic">
 <p align="center">
-<a href="https://github.com/Raashii/followers"><img title="Followers" src="https://img.shields.io/github/followers/saidalisaid2?color=blue&style=flat-square"></a>
-<a href="https://github.com/Raashii/Zara/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/farhan-dqz/JulieMwol?color=blue&style=flat-square"></a>
-<a href="https://github.com/Raashii/Zara/network/members"><img title="Forks" src="https://img.shields.io/github/forks/farhan-dqz/JulieMwol?color=blue&style=flat-square"></a>
-<a href="https://github.com/Raashii/Zara/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/farhan-dqz/JulieMwol?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/Raashii/followers"><img title="Followers" src="https://img.shields.io/github/followers/Raashii?color=blue&style=flat-square"></a>
+<a href="https://github.com/Raashii/Zara/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Raashii/Zara?color=blue&style=flat-square"></a>
+<a href="https://github.com/Raashii/Zara/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Raashii/Zara?color=blue&style=flat-square"></a>
+<a href="https://github.com/Raashii/Zara/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Raashii/Zara?label=Watchers&color=blue&style=flat-square"></a>
 <a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-blue.svg"</a>
 </p>
 
