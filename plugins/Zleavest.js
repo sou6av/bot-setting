@@ -14,7 +14,7 @@ if (Config.WORKTYPE == 'private') {
 
     if (match[1] === '') return await message.sendMessage(need);
 
-    var ttinullimage = await axios.get(`https://api.zeks.xyz/api/leavest?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&text=ZARAMWOL%20${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+    var ttinullimage = await axios.get(`https://api.zeks.xyz/api/leavest?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
     await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Zara*' })
 
@@ -27,7 +27,7 @@ else if (Config.WORKTYPE == 'public') {
 
     if (match[1] === '') return await message.sendMessage(need);
 
-    var ttinullimage = await axios.get(`https://api.zeks.xyz/api/leavest?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&text=ZARAMWOL&20${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+    var ttinullimage = await axios.get(`https://api.zeks.xyz/api/leavest?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
     await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Zara*' })
 
