@@ -104,7 +104,7 @@
         "greetings": {
             "WELCOME_DESC": "It sets the welcome message. If you leave it blank it shows the welcome message.",
             "NOT_SET_WELCOME": "*You don't set the welcome message yet.!*\n**To set:** ```.welcome your welcome message```",
-            "WELCOME_ALREADY_SETTED": "*✅ Welcome message already set!*\n*Message:* ```",
+            "WELCOME_ALREADY_SETTED": "*✅ Welcome message allade nee oru vattam settakkiyadh🥲!*\n*Message:* ```",
             "NEED_WELCOME_TEXT": "*You must write a message to set up the welcome message.*\n*Example:* ```.welcome WELCOME!```",
             "WELCOME_DELETED": "*✅ Welcome message has been deleted successfully!*",
             "WELCOME_SETTED": "*✅Zara Welcome message has been set successfully! Eni pedikkanda welcome cheyyan njan und😃*",
@@ -193,13 +193,13 @@
             "DOWNLOADING_VIDEO": "```Downloading... anu wait cheyy```",
             "UPLOADING_VIDEO": "```Uploading... Athu pore aliya😼```",
             "YT_DESC": "It searchs on YouTube.",
-            "NEED_WORDS": "```Please write a few words!```",
+            "NEED_WORDS": "```yanthankilum yazhuthade🙄!```",
             "GETTING_VIDEOS": "```Ippo sheri akki thera...```",
             "NOT_FOUND": "*Thappinokeett kittiyilla ☹️ sry nenba*",
             "SEARCHING": "*🔎 Searching...*",
             "WIKI_DESC": "Searches query on Wikipedia.",
             "IMG_DESC": "Searches for related pics on Google.",
-            "IMG": "```Uploading photo varumayirikkum vanna``` *{}* ```yannam``` *{}*"
+            "IMG": "```Uploading photo varumayirikkum vanna``` *{}* ```yannam``` *{}*nte photo"
         },
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
@@ -216,10 +216,10 @@
         },
         "updater": {
             "UPDATER_DESC": "Checks the update.",
-            "UPDATE": "*Zara bot is completely up-to-date!*",
+            "UPDATE": "*completely up-to-date!*",
             "NEW_UPDATE": "*Zara Update und update cheytho nallatha*\n\n please ask support group before updating. Otherwise chance to get error\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "```Updating..please wait few minits🥲```",
+            "UPDATING": "```Updating... Anu wait cheyy```\n\n ```Update aya parayam🙂```",
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
             "UPDATED": "*Updated 🤠✅  happy alle 🙂 ini anangilum yallangilum nanni*",
             "UPDATED_LOCAL": "*✅ Successfully Updated 😍😍😍!*",
@@ -315,9 +315,9 @@
         "conventer": {
             "MP4TOAUDİO_DESC": "Converts video to sound.",
             "MP4TOAUDİO_NEEDREPLY": "\n*You Must Reply to a Video!*\n",
-            "MP4TOAUDİO": "\n```Converting Video to Audio..\n```",
+            "MP4TOAUDİO": "\n```Converting...\n```",
             "ANİM_STİCK": "Converts animated stickers to video.",
-            "ANİMATE": "\n```Converting Animated Sticker To Video..```\n",
+            "ANİMATE": "\n```Converting...```\n",
             "STİCKER_DESC": "Converts the sticker to a photo.",
             "STİCKER_NEEDREPLY": "\n*You Must Reply to a sticker!*\n",
             "STİCKER": "```Converting the sticker to a photo..```",
@@ -449,7 +449,6 @@
             "ANIME_DESC": "It writes the text inside the banner the anime girl is holding",
             "TRUMP_DESC": "Converts the text to Trump's tweet.",
             "EMOJI_DESC": "Convert the emoji to png.",
-            "PDF_DESC": "Convert the image to pdf.",
             "NEED_IMAGE": "```Image nu replay ayi ayakk.```",
             "CHANGE_DESC": "Turns the text into the change my mind poster."
        },
@@ -504,7 +503,7 @@
             "PL_DESC": "Displays metadata data of group or person.",
             "SUB": "*Group Name:* ",
             "DES": "*Group Description:* ",
-            "OWN": "*Founder:* ",
+            "OWN": "*Thalaivar:* ",
             "COD": "*Unique Group Code:* ",
             "JİD": "*Person JID:* ",
             "ST": "*Person Status:* "
