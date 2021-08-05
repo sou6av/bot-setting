@@ -113,7 +113,7 @@
             "GOODBYE_ALREADY_SETTED": "*✅ Goodbye message has been set!*\n*Message:* ```",
             "NEED_GOODBYE_TEXT": "*You must write a message to set up the goodbye message.*\n*Example:* ```.goodbye Goodbye!```",
             "GOODBYE_DELETED": "*✅ Goodbye message has been deleted successfully!*",
-            "GOODBYE_SETTED": "*✅LiyaMol Goodbye message has been setted successfully! Eni left aya parayan ullath njan parayum ok😴*"
+            "GOODBYE_SETTED": "*✅Zara Goodbye message has been setted successfully! Eni left aya parayan ullath njan parayum ok😴*"
         },
         "lydia": {
             "ADDLYDIA_DESC": "Activates Lydia (AI) for the user.",
