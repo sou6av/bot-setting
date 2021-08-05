@@ -217,7 +217,7 @@
         "updater": {
             "UPDATER_DESC": "Checks the update.",
             "UPDATE": "*completely up-to-date!*",
-            "NEW_UPDATE": "*Zara Update und update cheytho nallatha*\n\n please ask support group before updating. Otherwise chance to get error\n\nChanges:\n```",
+            "NEW_UPDATE": "*Zara Update und update cheytho nallatha*\n\n please ask support group before updating. Otherwise chance to get error\n\nhttps://chat.whatsapp.com/G8RHcba0E5x3L1d9uICyK0\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
             "UPDATING": "```Updating... Anu wait cheyy```\n\n ```Update aya parayam🙂```",
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
