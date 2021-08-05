@@ -1,9 +1,9 @@
-/* Copyright (C) 2020 Yusuf Usta.
+/* Copyright (C) 2020 ameer-kallumthodi.
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
-WhatsAsena - Yusuf Usta
+Pikachu - ameer-kallumthodi
 */
 
 const fs = require("fs");
@@ -22,7 +22,7 @@ const got = require('got');
 const simpleGit = require('simple-git');
 const git = simpleGit();
 const crypto = require('crypto');
-const nw = '```Blacklist Defected!```'
+const nw = 'Blacklist Defected!'
 const heroku = new Heroku({
     token: config.HEROKU.API_KEY
 });
@@ -88,47 +88,47 @@ async function whatsAsena () {
             const { infotr, infoen, infoes, infopt, infoid, infoaz, infohi, infoml, inforu} = ann.data.announcements          
             if (infotr !== '' && config.LANG == 'TR') {
                 while (getGMTh == 19 && getGMTm == 1) { 
-                    return conn.sendMessage(conn.user.jid, '[ ```Günlük Duyurular``` ]\n\n' + infotr.replace('{user}', conn.user.name).replace('{wa_version}', conn.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', conn.user.phone.os_version).replace('{device_model}', conn.user.phone.device_model).replace('{device_brand}', conn.user.phone.device_manufacturer), MessageType.text) 
+                    return conn.sendMessage(conn.user.jid, '[ Günlük Duyurular ]\n\n' + infotr.replace('{user}', conn.user.name).replace('{wa_version}', conn.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', conn.user.phone.os_version).replace('{device_model}', conn.user.phone.device_model).replace('{device_brand}', conn.user.phone.device_manufacturer), MessageType.text) 
                 }
             }
             else if (infoaz !== '' && config.LANG == 'AZ') {
                 while (getGMTh == 19 && getGMTm == 1) { 
-                    return conn.sendMessage(conn.user.jid, '[ ```Gündəlik Elanlar``` ]\n\n' + infoaz.replace('{user}', conn.user.name).replace('{wa_version}', conn.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', conn.user.phone.os_version).replace('{device_model}', conn.user.phone.device_model).replace('{device_brand}', conn.user.phone.device_manufacturer), MessageType.text) 
+                    return conn.sendMessage(conn.user.jid, '[ Gündəlik Elanlar ]\n\n' + infoaz.replace('{user}', conn.user.name).replace('{wa_version}', conn.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', conn.user.phone.os_version).replace('{device_model}', conn.user.phone.device_model).replace('{device_brand}', conn.user.phone.device_manufacturer), MessageType.text) 
                 }
             }
             else if (infoes !== '' && config.LANG == 'ES') {
                 while (getGMTh == 18 && getGMTm == 1) { 
-                    return conn.sendMessage(conn.user.jid, '[ ```Anuncios Diarios``` ]\n\n' + infoes.replace('{user}', conn.user.name).replace('{wa_version}', conn.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', conn.user.phone.os_version).replace('{device_model}', conn.user.phone.device_model).replace('{device_brand}', conn.user.phone.device_manufacturer), MessageType.text) 
+                    return conn.sendMessage(conn.user.jid, '[ Anuncios Diarios ]\n\n' + infoes.replace('{user}', conn.user.name).replace('{wa_version}', conn.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', conn.user.phone.os_version).replace('{device_model}', conn.user.phone.device_model).replace('{device_brand}', conn.user.phone.device_manufacturer), MessageType.text) 
                 }
             }
             else if (infoen !== '' && config.LANG == 'EN') {
                 while (getGMTh == 19 && getGMTm == 1) { 
-                    return conn.sendMessage(conn.user.jid, '[ ```Daily Announcements``` ]\n\n' + infoen.replace('{user}', conn.user.name).replace('{wa_version}', conn.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', conn.user.phone.os_version).replace('{device_model}', conn.user.phone.device_model).replace('{device_brand}', conn.user.phone.device_manufacturer), MessageType.text) 
+                    return conn.sendMessage(conn.user.jid, '[ Daily Announcements ]\n\n' + infoen.replace('{user}', conn.user.name).replace('{wa_version}', conn.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', conn.user.phone.os_version).replace('{device_model}', conn.user.phone.device_model).replace('{device_brand}', conn.user.phone.device_manufacturer), MessageType.text) 
                 }
             }
             else if (infohi !== '' && config.LANG == 'HI') {
                 while (getGMTh == 21 && getGMTm == 31) { 
-                    return conn.sendMessage(conn.user.jid, '[ ```दैनिक घोषणाएं``` ]\n\n' + infohi.replace('{user}', conn.user.name).replace('{wa_version}', conn.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', conn.user.phone.os_version).replace('{device_model}', conn.user.phone.device_model).replace('{device_brand}', conn.user.phone.device_manufacturer), MessageType.text) 
+                    return conn.sendMessage(conn.user.jid, '[ दैनिक घोषणाएं ]\n\n' + infohi.replace('{user}', conn.user.name).replace('{wa_version}', conn.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', conn.user.phone.os_version).replace('{device_model}', conn.user.phone.device_model).replace('{device_brand}', conn.user.phone.device_manufacturer), MessageType.text) 
                 }
             }
             else if (infoml !== '' && config.LANG == 'ML') {
                 while (getGMTh == 19 && getGMTm == 1) { 
-                    return conn.sendMessage(conn.user.jid, '[ ```പ്രതിദിന പ്രഖ്യാപനങ്ങൾ``` ]\n\n' + infoml.replace('{user}', conn.user.name).replace('{wa_version}', conn.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', conn.user.phone.os_version).replace('{device_model}', conn.user.phone.device_model).replace('{device_brand}', conn.user.phone.device_manufacturer), MessageType.text) 
+                    return conn.sendMessage(conn.user.jid, '[ പ്രതിദിന പ്രഖ്യാപനങ്ങൾ ]\n\n' + infoml.replace('{user}', conn.user.name).replace('{wa_version}', conn.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', conn.user.phone.os_version).replace('{device_model}', conn.user.phone.device_model).replace('{device_brand}', conn.user.phone.device_manufacturer), MessageType.text) 
                 }
             }
             else if (infoid !== '' && config.LANG == 'ID') {
                 while (getGMTh == 23 && getGMTm == 1) { 
-                    return conn.sendMessage(conn.user.jid, '[ ```Pengumuman Harian``` ]\n\n' + infoid.replace('{user}', conn.user.name).replace('{wa_version}', conn.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', conn.user.phone.os_version).replace('{device_model}', conn.user.phone.device_model).replace('{device_brand}', conn.user.phone.device_manufacturer), MessageType.text) 
+                    return conn.sendMessage(conn.user.jid, '[ Pengumuman Harian ]\n\n' + infoid.replace('{user}', conn.user.name).replace('{wa_version}', conn.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', conn.user.phone.os_version).replace('{device_model}', conn.user.phone.device_model).replace('{device_brand}', conn.user.phone.device_manufacturer), MessageType.text) 
                 }
             }
             else if (inforu !== '' && config.LANG == 'RU') {
                 while (getGMTh == 19 && getGMTm == 1) { 
-                    return conn.sendMessage(conn.user.jid, '[ ```Ежедневные объявления``` ]\n\n' + inforu.replace('{user}', conn.user.name).replace('{wa_version}', conn.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', conn.user.phone.os_version).replace('{device_model}', conn.user.phone.device_model).replace('{device_brand}', conn.user.phone.device_manufacturer), MessageType.text) 
+                    return conn.sendMessage(conn.user.jid, '[ Ежедневные объявления ]\n\n' + inforu.replace('{user}', conn.user.name).replace('{wa_version}', conn.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', conn.user.phone.os_version).replace('{device_model}', conn.user.phone.device_model).replace('{device_brand}', conn.user.phone.device_manufacturer), MessageType.text) 
                 }
             }
             else if (infopt !== '' && config.LANG == 'PT') {
                 while (getGMTh == 17 && getGMTm == 1) { 
-                    return conn.sendMessage(conn.user.jid, '[ ```Anúncios Diários``` ]\n\n' + infopt.replace('{user}', conn.user.name).replace('{wa_version}', conn.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', conn.user.phone.os_version).replace('{device_model}', conn.user.phone.device_model).replace('{device_brand}', conn.user.phone.device_manufacturer), MessageType.text) 
+                    return conn.sendMessage(conn.user.jid, '[ Anúncios Diários ]\n\n' + infopt.replace('{user}', conn.user.name).replace('{wa_version}', conn.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', conn.user.phone.os_version).replace('{device_model}', conn.user.phone.device_model).replace('{device_brand}', conn.user.phone.device_manufacturer), MessageType.text) 
                 }
             }
         })
@@ -352,7 +352,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         let afwhasena = config.WORKTYPE == 'public' ? ' Public' : ' Private'
         console.log(chalk.bgGreen('🐺 WhatsAsena' + afwhasena));
         await new Promise(r => setTimeout(r, 500));
-        let EVA_ACTİON = config.LANG == 'TR' || config.LANG == 'AZ' ? '*WhatsAsena Chatbot Olarak Çalışıyor!* 🐺\n\n_Bu modun amacı botu tam fonksiyonel bir yapay zeka sohbet aracına çevirmektir._\n_Normal moda dönmek için_ *.fulleva off* _komutunu kullanabilirsiniz._\n\n*WhatsAsena Kullandığın İçin Teşekkürler 💌*\n    *- Eva*' : '*WhatsAsena Working as a Chatbot! 🐺*\n\n_The purpose of this mod is to turn the bot into a fully functional AI chatbot._\n_You can use the_ *.fulleva off* _command to return to normal mode._\n\n*Thanks For Using WhatsAsena 💌*\n    *- Eva*'
+        let EVA_ACTİON = config.LANG == 'TR' || config.LANG == 'AZ' ? 'WhatsAsena Chatbot Olarak Çalışıyor! 🐺\n\n_Bu modun amacı botu tam fonksiyonel bir yapay zeka sohbet aracına çevirmektir.\n_Normal moda dönmek için .fulleva off komutunu kullanabilirsiniz.\n\n*WhatsAsena Kullandığın İçin Teşekkürler 💌\n    *- Eva' : 'WhatsAsena Working as a Chatbot! 🐺\n\n_The purpose of this mod is to turn the bot into a fully functional AI chatbot.\n_You can use the .fulleva off command to return to normal mode.\n\n*Thanks For Using WhatsAsena 💌\n    *- Eva'
         if (conn.user.jid == one || conn.user.jid == two || conn.user.jid == three || conn.user.jid == four) {
             await conn.sendMessage(conn.user.jid,nw, MessageType.text), console.log(nw), await new Promise(r => setTimeout(r, 1000))
             await heroku.get(baseURI + '/formation').then(async (formation) => { 
@@ -370,7 +370,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '*WhatsAsena Public Olarak Çalışıyor! 🐺*\n\n_Lütfen burada plugin denemesi yapmayın. Burası sizin LOG numaranızdır._\n_Herhangi bir sohbette komutları deneyebilirsiniz :)_\n\n*Botunuz herkese açık bir şekilde çalışmaktadır. Değiştirmek için* _.setvar WORK_TYPE:private_ *komutunu kullanın.*\n\n*WhatsAsena Kullandığın İçin Teşekkürler 💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, 'WhatsAsena Public Olarak Çalışıyor! 🐺\n\n_Lütfen burada plugin denemesi yapmayın. Burası sizin LOG numaranızdır.\n_Herhangi bir sohbette komutları deneyebilirsiniz :)\n\n*Botunuz herkese açık bir şekilde çalışmaktadır. Değiştirmek için* .setvar WORK_TYPE:private komutunu kullanın.\n\n*WhatsAsena Kullandığın İçin Teşekkürler 💌*', MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -388,7 +388,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     );
                     await conn.sendMessage(
                         conn.user.jid,
-                        '```Güncellemek İçin``` *.update now* ```Yazın.```\n\n' + degisiklikler + '```', MessageType.text
+                        'Güncellemek İçin .update now Yazın.\n\n' + degisiklikler + '', MessageType.text
                     ); 
                 }
             }
@@ -396,7 +396,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '\n*Pikachu Working as Public!😎*\n', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '\n*sidzxbotus  Working as Public!😎*\n', MessageType.text);
                 }               
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -415,7 +415,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         
                     await conn.sendMessage(
                         conn.user.jid,
-                        '```Type``` *.update now* ```For Update The Bot.```\n\n' + degisiklikler + '```', MessageType.text
+                        'Type *.update now* For Update The Bot.\n\n' + degisiklikler + '', MessageType.text
                     ); 
                 }
             }
@@ -425,7 +425,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '*WhatsAsena Private Olarak Çalışıyor! 🐺*\n\n_Lütfen burada plugin denemesi yapmayın. Burası sizin LOG numaranızdır._\n_Herhangi bir sohbette komutları deneyebilirsiniz :)_\n\n*Botunuz sadece size özel olarak çalışmaktadır. Değiştirmek için* _.setvar WORK_TYPE:public_ *komutunu kullanın.*\n\n*WhatsAsena Kullandığın İçin Teşekkürler 💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, 'WhatsAsena Private Olarak Çalışıyor! 🐺\n\n_Lütfen burada plugin denemesi yapmayın. Burası sizin LOG numaranızdır.\n_Herhangi bir sohbette komutları deneyebilirsiniz :)\n\n*Botunuz sadece size özel olarak çalışmaktadır. Değiştirmek için* .setvar WORK_TYPE:public komutunu kullanın.\n\n*WhatsAsena Kullandığın İçin Teşekkürler 💌*', MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -443,7 +443,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     );
                     await conn.sendMessage(
                         conn.user.jid,
-                        '```Güncellemek İçin``` *.update now* ```Yazın.```\n\n' + degisiklikler + '```', MessageType.text
+                        'Güncellemek İçin .update now Yazın.\n\n' + degisiklikler + '', MessageType.text
                     ); 
                 }
             }
@@ -451,7 +451,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '\n*Pikachu  Working as Private!😎*\n\n_Please do not try plugins here. This is your LOG number._\n_You can try commands to any chat :)_\n\n*Your bot working as private. To change it, use* _.setvar WORK_TYPE:public_\n\n*Thanks for using WhatsAsena 💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '\n*sidzxbotus   Working as Private!😎\n\n_Please do not try plugins here. This is your LOG number.\n_You can try commands to any chat :)\n\n*Your bot working as private. To change it, use .setvar WORK_TYPE:public\n\n*Thanks for using WhatsAsena 💌*', MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -469,7 +469,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     );
                     await conn.sendMessage(
                         conn.user.jid,
-                        '```Type``` *.update now* ```For The Update Bot.```\n\n' + degisiklikler + '```', MessageType.text
+                        'Type *.update now* For The Update Bot.\n\n' + degisiklikler + '', MessageType.text
                     ); 
                 }
             }
@@ -480,7 +480,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
 
                 await conn.sendMessage(
                     conn.user.jid,
-                    '_Görünüşe Göre Private Moduna Geçmek İstiyorsun! Maalesef_ *WORK_TYPE* _Anahtarın Yanlış!_ \n_Merak Etme! Senin İçin Doğrusunu Bulmaya Çalışıyorum.._', MessageType.text
+                    'Görünüşe Göre Private Moduna Geçmek İstiyorsun! Maalesef WORK_TYPE Anahtarın Yanlış! \n_Merak Etme! Senin İçin Doğrusunu Bulmaya Çalışıyorum.._', MessageType.text
                 );
                 await heroku.patch(baseURI + '/config-vars', {
                     body: {
@@ -491,7 +491,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
             else {
                 await conn.sendMessage(
                     conn.user.jid,
-                    '_It Looks Like You Want to Switch to Private Mode! Sorry, Your_ *WORK_TYPE* _Key Is Incorrect!_ \n_Dont Worry! I am Trying To Find The Right One For You.._', MessageType.text
+                    'It Looks Like You Want to Switch to Private Mode! Sorry, Your WORK_TYPE Key Is Incorrect! \n_Dont Worry! I am Trying To Find The Right One For You.._', MessageType.text
                 );
                 await heroku.patch(baseURI + '/config-vars', {
                     body: {
@@ -504,7 +504,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
             if (config.LANG == 'TR' || config.LANG == 'AZ') {
                 await conn.sendMessage(
                     conn.user.jid,
-                    '_Görünüşe Göre Public Moduna Geçmek İstiyorsun! Maalesef_ *WORK_TYPE* _Anahtarın Yanlış!_ \n_Merak Etme! Senin İçin Doğrusunu Bulmaya Çalışıyorum.._', MessageType.text
+                    'Görünüşe Göre Public Moduna Geçmek İstiyorsun! Maalesef WORK_TYPE Anahtarın Yanlış! \n_Merak Etme! Senin İçin Doğrusunu Bulmaya Çalışıyorum.._', MessageType.text
                 );
                 await heroku.patch(baseURI + '/config-vars', {
                     body: {
@@ -515,7 +515,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
             else {
                 await conn.sendMessage(
                     conn.user.jid,
-                    '_It Looks Like You Want to Switch to Public Mode! Sorry, Your_ *WORK_TYPE* _Key Is Incorrect!_ \n_Dont Worry! I am Trying To Find The Right One For You.._', MessageType.text
+                    'It Looks Like You Want to Switch to Public Mode! Sorry, Your WORK_TYPE Key Is Incorrect! \n_Dont Worry! I am Trying To Find The Right One For You.._', MessageType.text
                 );
                 await heroku.patch(baseURI + '/config-vars', {
                     body: {
@@ -528,13 +528,13 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
             if (config.LANG == 'TR' || config.LANG == 'AZ') {
                 return await conn.sendMessage(
                     conn.user.jid,
-                    '_Girdiğin_ *WORK_TYPE* _Anahtarı Bulunamadı!_ \n_Lütfen_ ```.setvar WORK_TYPE:private``` _Yada_ ```.setvar WORK_TYPE:public``` _Komutunu Kullanın!_', MessageType.text
+                    'Girdiğin WORK_TYPE Anahtarı Bulunamadı! \n_Lütfen_ .setvar WORK_TYPE:private Yada .setvar WORK_TYPE:public Komutunu Kullanın!', MessageType.text
                 );
             }
             else {
                 return await conn.sendMessage(
                     conn.user.jid,
-                    '_The_ *WORK_TYPE* _Key You Entered Was Not Found!_ \n_Please Type_ ```.setvar WORK_TYPE:private``` _Or_ ```.setvar WORK_TYPE:public```', MessageType.text
+                    'The WORK_TYPE Key You Entered Was Not Found! \n_Please Type_ .setvar WORK_TYPE:private Or .setvar WORK_TYPE:public', MessageType.text
                 );
             }
         }
@@ -664,268 +664,268 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                             if (config.NOLOG == 'true') return;
 
                             if (config.LANG == 'TR' || config.LANG == 'AZ') {
-                                await conn.sendMessage(conn.user.jid, '*-- HATA RAPORU [WHATSASENA] --*' + 
+                                await conn.sendMessage(conn.user.jid, '-- HATA RAPORU [WHATSASENA] --' + 
                                     '\n*WhatsAsena bir hata gerçekleşti!*'+
                                     '\n_Bu hata logunda numaranız veya karşı bir tarafın numarası olabilir. Lütfen buna dikkat edin!_' +
                                     '\n_Yardım için Telegram grubumuza yazabilirsiniz._' +
                                     '\n_Bu mesaj sizin numaranıza (kaydedilen mesajlar) gitmiş olmalıdır._' +
                                     '\n_Hatayı https://chat.whatsapp.com/BPNzFEBUVbT1MnfNv3uTvL bu gruba iletebilirsiniz._\n\n' +
-                                    '*Gerçekleşen Hata:* ```' + error + '```\n\n'
+                                    'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text, {detectLinks: false});
 
                                 if (error.message.includes('URL')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Hata Okundu!``` ==========' +
-                                        '\n\n*Ana Hata:* _Only Absolutely URLs Supported_' +
-                                        '\n*Nedeni:* _Medya araçlarının (xmedia, sticker..) LOG numarasında kullanılması._' +
-                                        '\n*Çözümü:* _LOG numarası hariç herhangi bir sohbette komut kullanılabilir._'
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️' + 
+                                        '\n========== Hata Okundu! ==========' +
+                                        '\n\n*Ana Hata:* Only Absolutely URLs Supported' +
+                                        '\n*Nedeni:* Medya araçlarının (xmedia, sticker..) LOG numarasında kullanılması.' +
+                                        '\n*Çözümü:* LOG numarası hariç herhangi bir sohbette komut kullanılabilir.'
                                         , MessageType.text
                                     );
                                 }
                                 else if (error.message.includes('SSL')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Hata Okundu!``` ==========' +
-                                        '\n\n*Ana Hata:* _SQL Database Error_' +
-                                        '\n*Nedeni:* _Database\'in bozulması._ ' +
-                                        '\n*Solution:* _Bilinen herhangi bir çözümü yoktur. Yeniden kurmayı deneyebilirsiniz._'
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️' + 
+                                        '\n========== Hata Okundu! ==========' +
+                                        '\n\n*Ana Hata:* SQL Database Error' +
+                                        '\n*Nedeni:* Database\'in bozulması. ' +
+                                        '\n*Solution:* Bilinen herhangi bir çözümü yoktur. Yeniden kurmayı deneyebilirsiniz.'
                                         , MessageType.text
                                     );
                                 }
                                 else if (error.message.includes('split')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Hata Okundu!``` ==========' +
-                                        '\n\n*Ana Hata:* _Split of Undefined_' +
-                                        '\n*Nedeni:* _Grup adminlerinin kullanabildiği komutların ara sıra split fonksiyonunu görememesi._ ' +
-                                        '\n*Çözümü:* _Restart atmanız yeterli olacaktır._'
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️' + 
+                                        '\n========== Hata Okundu! ==========' +
+                                        '\n\n*Ana Hata:* Split of Undefined' +
+                                        '\n*Nedeni:* Grup adminlerinin kullanabildiği komutların ara sıra split fonksiyonunu görememesi. ' +
+                                        '\n*Çözümü:* Restart atmanız yeterli olacaktır.'
                                         , MessageType.text
                                     );                               
                                 }
                                 else if (error.message.includes('Ookla')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Hata Okundu!``` ==========' +
-                                        '\n\n*Ana Hata:* _Ookla Server Connection_' +
-                                        '\n*Nedeni:* _Speedtest verilerinin sunucuya iletilememesi._' +
-                                        '\n*Çözümü:* _Bir kez daha kullanırsanız sorun çözülecektir._'
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️' + 
+                                        '\n========== Hata Okundu! ==========' +
+                                        '\n\n*Ana Hata:* Ookla Server Connection' +
+                                        '\n*Nedeni:* Speedtest verilerinin sunucuya iletilememesi.' +
+                                        '\n*Çözümü:* Bir kez daha kullanırsanız sorun çözülecektir.'
                                         , MessageType.text
                                     );
                                 }
                                 else if (error.message.includes('params')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Hata Okundu!``` ==========' +
-                                        '\n\n*Ana Hata:* _Requested Audio Params_' +
-                                        '\n*Nedeni:* _TTS komutunun latin alfabesi dışında kullanılması._' +
-                                        '\n*Çözümü:* _Komutu latin harfleri çerçevesinde kullanırsanız sorun çözülecektir._'
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️' + 
+                                        '\n========== Hata Okundu! ==========' +
+                                        '\n\n*Ana Hata:* Requested Audio Params' +
+                                        '\n*Nedeni:* TTS komutunun latin alfabesi dışında kullanılması.' +
+                                        '\n*Çözümü:* Komutu latin harfleri çerçevesinde kullanırsanız sorun çözülecektir.'
                                         , MessageType.text
                                     );
                                 }
                                 else if (error.message.includes('unlink')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Hata Okundu!``` ==========' +
-                                        '\n\n*Ana Hata:* _No Such File or Directory_' +
-                                        '\n*Nedeni:* _Pluginin yanlış kodlanması._' +
-                                        '\n*Çözümü:* _Lütfen plugininin kodlarını kontrol edin._'
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️' + 
+                                        '\n========== Hata Okundu! ==========' +
+                                        '\n\n*Ana Hata:* No Such File or Directory' +
+                                        '\n*Nedeni:* Pluginin yanlış kodlanması.' +
+                                        '\n*Çözümü:* Lütfen plugininin kodlarını kontrol edin.'
                                         , MessageType.text
                                     );
                                 }
                                 else if (error.message.includes('404')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Hata Okundu!``` ==========' +
-                                        '\n\n*Ana Hata:* _Error 404 HTTPS_' +
-                                        '\n*Nedeni:* _Heroku plugini altındaki komutların kullanılması sonucu sunucu ile iletişime geçilememesi._' +
-                                        '\n*Çözümü:* _Biraz bekleyip tekrar deneyin. Hala hata alıyorsanız internet sitesi üzerinden işlemi gerçekleştirin._'
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️' + 
+                                        '\n========== Hata Okundu! ==========' +
+                                        '\n\n*Ana Hata:* Error 404 HTTPS' +
+                                        '\n*Nedeni:* Heroku plugini altındaki komutların kullanılması sonucu sunucu ile iletişime geçilememesi.' +
+                                        '\n*Çözümü:* Biraz bekleyip tekrar deneyin. Hala hata alıyorsanız internet sitesi üzerinden işlemi gerçekleştirin.'
                                         , MessageType.text
                                     );
                                 }
                                 else if (error.message.includes('reply.delete')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Hata Okundu!``` ==========' +
-                                        '\n\n*Ana Hata:* _Reply Delete Function_' +
-                                        '\n*Nedeni:* _IMG yada Wiki komutlarının kullanılması._' +
-                                        '\n*Çözümü:* _Bu hatanın çözümü yoktur. Önemli bir hata değildir._'
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️' + 
+                                        '\n========== Hata Okundu! ==========' +
+                                        '\n\n*Ana Hata:* Reply Delete Function' +
+                                        '\n*Nedeni:* IMG yada Wiki komutlarının kullanılması.' +
+                                        '\n*Çözümü:* Bu hatanın çözümü yoktur. Önemli bir hata değildir.'
                                         , MessageType.text
                                     );
                                 }
                                 else if (error.message.includes('load.delete')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Hata Okundu!``` ==========' +
-                                        '\n\n*Ana Hata:* _Reply Delete Function_' +
-                                        '\n*Nedeni:* _IMG yada Wiki komutlarının kullanılması._' +
-                                        '\n*Çözümü:* _Bu hatanın çözümü yoktur. Önemli bir hata değildir._'
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️' + 
+                                        '\n========== Hata Okundu! ==========' +
+                                        '\n\n*Ana Hata:* Reply Delete Function' +
+                                        '\n*Nedeni:* IMG yada Wiki komutlarının kullanılması.' +
+                                        '\n*Çözümü:* Bu hatanın çözümü yoktur. Önemli bir hata değildir.'
                                         , MessageType.text
                                     );
                                 }
                                 else if (error.message.includes('400')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Hata Okundu!``` ==========' +
-                                        '\n\n*Ana Hata:* _Bailyes Action Error_ ' +
-                                        '\n*Nedeni:* _Tam nedeni bilinmiyor. Birden fazla seçenek bu hatayı tetiklemiş olabilir._' +
-                                        '\n*Çözümü:* _Bir kez daha kullanırsanız düzelebilir. Hata devam ediyorsa restart atmayı deneyebilirsiniz._'
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️' + 
+                                        '\n========== Hata Okundu! ==========' +
+                                        '\n\n*Ana Hata:* Bailyes Action Error ' +
+                                        '\n*Nedeni:* Tam nedeni bilinmiyor. Birden fazla seçenek bu hatayı tetiklemiş olabilir.' +
+                                        '\n*Çözümü:* Bir kez daha kullanırsanız düzelebilir. Hata devam ediyorsa restart atmayı deneyebilirsiniz.'
                                         , MessageType.text
                                     );
                                 }
                                 else if (error.message.includes('decode')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Hata Okundu!``` ==========' +
-                                        '\n\n*Ana Hata:* _Cannot Decode Text or Media_' +
-                                        '\n*Nedeni:* _Pluginin yanlış kullanımı._' +
-                                        '\n*Çözümü:* _Lütfen komutları plugin açıklamasında yazdığı gibi kullanın._'
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️' + 
+                                        '\n========== Hata Okundu! ==========' +
+                                        '\n\n*Ana Hata:* Cannot Decode Text or Media' +
+                                        '\n*Nedeni:* Pluginin yanlış kullanımı.' +
+                                        '\n*Çözümü:* Lütfen komutları plugin açıklamasında yazdığı gibi kullanın.'
                                         , MessageType.text
                                     );
                                 }
                                 else if (error.message.includes('unescaped')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Hata Okundu!``` ==========' +
-                                        '\n\n*Ana Hata:* _Word Character Usage_' +
-                                        '\n*Nedeni:* _TTP, ATTP gibi komutların latin alfabesi dışında kullanılması._' +
-                                        '\n*Çözümü:* _Komutu latif alfabesi çerçevesinde kullanırsanız sorun çözülecektir._'
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️' + 
+                                        '\n========== Hata Okundu! ==========' +
+                                        '\n\n*Ana Hata:* Word Character Usage' +
+                                        '\n*Nedeni:* TTP, ATTP gibi komutların latin alfabesi dışında kullanılması.' +
+                                        '\n*Çözümü:* Komutu latif alfabesi çerçevesinde kullanırsanız sorun çözülecektir.'
                                         , MessageType.text
                                     );
                                 }
                                 else if (error.message.includes('conversation')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Hata Okundu!``` ==========' +
-                                        '\n\n*Ana Hata:* _Deleting Plugin_' +
-                                        '\n*Nedeni:* _Silinmek istenen plugin isminin yanlış girilmesi._' +
-                                        '\n*Çözümü:* _Lütfen silmek istediğiniz pluginin başına_ *__* _koymadan deneyin. Hala hata alıyorsanız ismin sonundaki_ ```?(.*) / $``` _gibi ifadeleri eksiksiz girin._'
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️' + 
+                                        '\n========== Hata Okundu! ==========' +
+                                        '\n\n*Ana Hata:* Deleting Plugin' +
+                                        '\n*Nedeni:* Silinmek istenen plugin isminin yanlış girilmesi.' +
+                                        '\n*Çözümü:* Lütfen silmek istediğiniz pluginin başına __ _koymadan deneyin. Hala hata alıyorsanız ismin sonundaki_ ?(.*) / $ gibi ifadeleri eksiksiz girin.'
                                         , MessageType.text
                                     );
                                 }
                                 else {
-                                    return await conn.sendMessage(conn.user.jid, '*🙇🏻 Maalesef Bu Hatayı Okuyamadım! 🙇🏻*' +
+                                    return await conn.sendMessage(conn.user.jid, '🙇🏻 Maalesef Bu Hatayı Okuyamadım! 🙇🏻' +
                                         '\n_Daha fazla yardım için grubumuza yazabilirsiniz._'
                                         , MessageType.text
                                     );
                                 }
                             }
                             else {
-                                await conn.sendMessage(conn.user.jid, '*-- ERROR REPORT [Pikachu] --*' + 
-                                    '\n*Pikachu an error has occurred!*'+
+                                await conn.sendMessage(conn.user.jid, '-- ERROR REPORT [sidzxbotus ] --' + 
+                                    '\n*sidzxbotus  an error has occurred!*'+
                                     '\n*This error log may include your number or the number of an opponent. Please be careful with it!*' +
                                     '\n*You can write to our Telegram group for help.*' +
                                     '\n*Aslo you can join our support group:* https://chat.whatsapp.com/FsDjV2uRKce4wgMpAtYwyf' +
                                     '\n*This message should have gone to your number (saved messages).*\n\n' +
-                                    '*Error:* ```' + error + '```\n\n'
+                                    'Error: ' + error + '\n\n'
                                     , MessageType.text, {detectLinks: false}
                                 );
                                 if (error.message.includes('URL')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [Pikachu] ⚕️*' + 
-                                        '\n========== ```Error Resolved!``` ==========' +
-                                        '\n\n*Main Error:* _Only Absolutely URLs Supported_' +
-                                        '\n*Reason:* _The usage of media tools (xmedia, sticker..) in the LOG number._' +
-                                        '\n*Solution:* _You can use commands in any chat, except the LOG number._'
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ ERROR ANALYSIS [sidzxbotus ] ⚕️' + 
+                                        '\n========== Error Resolved! ==========' +
+                                        '\n\n*Main Error:* Only Absolutely URLs Supported' +
+                                        '\n*Reason:* The usage of media tools (xmedia, sticker..) in the LOG number.' +
+                                        '\n*Solution:* You can use commands in any chat, except the LOG number.'
                                         , MessageType.text
                                     );
                                 }
                                 else if (error.message.includes('conversation')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [Pikachu] ⚕️*' + 
-                                        '\n========== ```Error Resolved!``` ==========' +
-                                        '\n\n*Main Error:* _Deleting Plugin_' +
-                                        '\n*Reason:* _Entering incorrectly the name of the plugin wanted to be deleted._' +
-                                        '\n*Solution:* _Please try without adding_ *__* _to the plugin you want to delete. If you still get an error, try to add like_ ```?(.*) / $``` _to the end of the name._ '
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ ERROR ANALYSIS [sidzxbotus ] ⚕️' + 
+                                        '\n========== Error Resolved! ==========' +
+                                        '\n\n*Main Error:* Deleting Plugin' +
+                                        '\n*Reason:* Entering incorrectly the name of the plugin wanted to be deleted.' +
+                                        '\n*Solution:* Please try without adding __ _to the plugin you want to delete. If you still get an error, try to add like_ ?(.*) / $ to the end of the name. '
                                         , MessageType.text
                                     );
                                 }
                                 else if (error.message.includes('split')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [Pikachu] ⚕️*' + 
-                                        '\n========== ```Error Resolved!``` ==========' +
-                                        '\n\n*Main Error:* _Split of Undefined_' +
-                                        '\n*Reason:* _Commands that can be used by group admins occasionally dont see the split function._ ' +
-                                        '\n*Solution:* _Restarting will be enough._'
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ ERROR ANALYSIS [sidzxbotus ] ⚕️' + 
+                                        '\n========== Error Resolved! ==========' +
+                                        '\n\n*Main Error:* Split of Undefined' +
+                                        '\n*Reason:* Commands that can be used by group admins occasionally dont see the split function. ' +
+                                        '\n*Solution:* Restarting will be enough.'
                                         , MessageType.text
                                     );
                                 }
                                 else if (error.message.includes('SSL')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [Pikachu] ⚕️*' + 
-                                        '\n========== ```Error Resolved!``` ==========' +
-                                        '\n\n*Main Error:* _SQL Database Error_' +
-                                        '\n*Reason:* _Database corruption._ ' +
-                                        '\n*Solution:* _There is no known solution. You can try reinstalling it._'
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ ERROR ANALYSIS [sidzxbotus ] ⚕️' + 
+                                        '\n========== Error Resolved! ==========' +
+                                        '\n\n*Main Error:* SQL Database Error' +
+                                        '\n*Reason:* Database corruption. ' +
+                                        '\n*Solution:* There is no known solution. You can try reinstalling it.'
                                         , MessageType.text
                                     );
                                 }
                                 else if (error.message.includes('Ookla')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [Pikachu] ⚕️*' + 
-                                        '\n========== ```Error Resolved!``` ==========' +
-                                        '\n\n*Main Error:* _Ookla Server Connection_' +
-                                        '\n*Reason:* _Speedtest data cannot be transmitted to the server._' +
-                                        '\n*Solution:* _If you use it one more time the problem will be solved._'
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ ERROR ANALYSIS [sidzxbotus ] ⚕️' + 
+                                        '\n========== Error Resolved! ==========' +
+                                        '\n\n*Main Error:* Ookla Server Connection' +
+                                        '\n*Reason:* Speedtest data cannot be transmitted to the server.' +
+                                        '\n*Solution:* If you use it one more time the problem will be solved.'
                                         , MessageType.text
                                     );
                                 }
                                 else if (error.message.includes('params')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [Pikachu] ⚕️*' + 
-                                        '\n========== ```Error Resolved!``` ==========' +
-                                        '\n\n*Main Error:* _Requested Audio Params_' +
-                                        '\n*Reason:* _Using the TTS command outside the Latin alphabet._' +
-                                        '\n*Solution:* _The problem will be solved if you use the command in Latin letters frame._'
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ ERROR ANALYSIS [sidzxbotus ] ⚕️' + 
+                                        '\n========== Error Resolved! ==========' +
+                                        '\n\n*Main Error:* Requested Audio Params' +
+                                        '\n*Reason:* Using the TTS command outside the Latin alphabet.' +
+                                        '\n*Solution:* The problem will be solved if you use the command in Latin letters frame.'
                                         , MessageType.text
                                     );
                                 }
                                 else if (error.message.includes('unlink')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [Pikachu] ⚕️*' + 
-                                        '\n========== ```Error Resolved``` ==========' +
-                                        '\n\n*Main Error:* _No Such File or Directory_' +
-                                        '\n*Reason:* _Incorrect coding of the plugin._' +
-                                        '\n*Solution:* _Please check the your plugin codes._'
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ ERROR ANALYSIS [sidzxbotus ] ⚕️' + 
+                                        '\n========== Error Resolved ==========' +
+                                        '\n\n*Main Error:* No Such File or Directory' +
+                                        '\n*Reason:* Incorrect coding of the plugin.' +
+                                        '\n*Solution:* Please check the your plugin codes.'
                                         , MessageType.text
                                     );
                                 }
                                 else if (error.message.includes('404')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [Pikachu] ⚕️*' + 
-                                        '\n========== ```Error Resolved!``` ==========' +
-                                        '\n\n*Main Error:* _Error 404 HTTPS_' +
-                                        '\n*Reason:* _Failure to communicate with the server as a result of using the commands under the Heroku plugin._' +
-                                        '\n*Solution:* _Wait a while and try again. If you still get the error, perform the transaction on the website.._'
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ ERROR ANALYSIS [sidzxbotus ] ⚕️' + 
+                                        '\n========== Error Resolved! ==========' +
+                                        '\n\n*Main Error:* Error 404 HTTPS' +
+                                        '\n*Reason:* Failure to communicate with the server as a result of using the commands under the Heroku plugin.' +
+                                        '\n*Solution:* Wait a while and try again. If you still get the error, perform the transaction on the website..'
                                         , MessageType.text
                                     );
                                 }
                                 else if (error.message.includes('reply.delete')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [Pikachu] ⚕️*' + 
-                                        '\n========== ```Error Resolved!``` ==========' +
-                                        '\n\n*Main Error:* _Reply Delete Function_' +
-                                        '\n*Reason:* _Using IMG or Wiki commands._' +
-                                        '\n*Solution:* _There is no solution for this error. It is not a fatal error._'
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ ERROR ANALYSIS [sidzxbotus ] ⚕️' + 
+                                        '\n========== Error Resolved! ==========' +
+                                        '\n\n*Main Error:* Reply Delete Function' +
+                                        '\n*Reason:* Using IMG or Wiki commands.' +
+                                        '\n*Solution:* There is no solution for this error. It is not a fatal error.'
                                         , MessageType.text
                                     );
                                 }
                                 else if (error.message.includes('load.delete')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [Pikachu] ⚕️*' + 
-                                        '\n========== ```Error Resolved!``` ==========' +
-                                        '\n\n*Main Error:* _Reply Delete Function_' +
-                                        '\n*Reason:* _Using IMG or Wiki commands._' +
-                                        '\n*Solution:* _There is no solution for this error. It is not a fatal error._'
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ ERROR ANALYSIS [sidzxbotus ] ⚕️' + 
+                                        '\n========== Error Resolved! ==========' +
+                                        '\n\n*Main Error:* Reply Delete Function' +
+                                        '\n*Reason:* Using IMG or Wiki commands.' +
+                                        '\n*Solution:* There is no solution for this error. It is not a fatal error.'
                                         , MessageType.text
                                     );
                                 }
                                 else if (error.message.includes('400')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [Pikachu] ⚕️*' + 
-                                        '\n========== ```Error Resolved!``` ==========' +
-                                        '\n\n*Main Error:* _Bailyes Action Error_ ' +
-                                        '\n*Reason:* _The exact reason is unknown. More than one option may have triggered this error._' +
-                                        '\n*Solution:* _If you use it again, it may improve. If the error continues, you can try to restart._'
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ ERROR ANALYSIS [sidzxbotus ] ⚕️' + 
+                                        '\n========== Error Resolved! ==========' +
+                                        '\n\n*Main Error:* Bailyes Action Error ' +
+                                        '\n*Reason:* The exact reason is unknown. More than one option may have triggered this error.' +
+                                        '\n*Solution:* If you use it again, it may improve. If the error continues, you can try to restart.'
                                         , MessageType.text
                                     );
                                 }
                                 else if (error.message.includes('decode')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [Pikachu] ⚕️*' + 
-                                        '\n========== ```Error Resolved!``` ==========' +
-                                        '\n\n*Main Error:* _Cannot Decode Text or Media_' +
-                                        '\n*Reason:* _Incorrect use of the plug._' +
-                                        '\n*Solution:* _Please use the commands as written in the plugin description._'
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ ERROR ANALYSIS [sidzxbotus ] ⚕️' + 
+                                        '\n========== Error Resolved! ==========' +
+                                        '\n\n*Main Error:* Cannot Decode Text or Media' +
+                                        '\n*Reason:* Incorrect use of the plug.' +
+                                        '\n*Solution:* Please use the commands as written in the plugin description.'
                                         , MessageType.text
                                     );
                                 }
                                 else if (error.message.includes('unescaped')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [Pikachu] ⚕️*' + 
-                                        '\n========== ```Error Resolved!``` ==========' +
-                                        '\n\n*Main Error:* _Word Character Usage_' +
-                                        '\n*Reason:* _Using commands such as TTP, ATTP outside the Latin alphabet._' +
-                                        '\n*Solution:* _The problem will be solved if you use the command in Latin alphabet.._'
+                                    return await conn.sendMessage(conn.user.jid, '⚕️ ERROR ANALYSIS [sidzxbotus ] ⚕️' + 
+                                        '\n========== Error Resolved! ==========' +
+                                        '\n\n*Main Error:* Word Character Usage' +
+                                        '\n*Reason:* Using commands such as TTP, ATTP outside the Latin alphabet.' +
+                                        '\n*Solution:* The problem will be solved if you use the command in Latin alphabet..'
                                         , MessageType.text
                                     );
                                 }
                                 else {
-                                    return await conn.sendMessage(conn.user.jid, '*🙇🏻 Sorry, I Couldnt Read This Error! 🙇🏻*' +
+                                    return await conn.sendMessage(conn.user.jid, '🙇🏻 Sorry, I Couldnt Read This Error! 🙇🏻' +
                                         '\n_You can write to our support group for more help /nhttps://chat.whatsapp.com/FsDjV2uRKce4wgMpAtYwyf._'
                                         , MessageType.text
                                     );
