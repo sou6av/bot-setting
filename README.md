@@ -5,7 +5,7 @@
 <a href="#"><img title="Blackzue" src="https://img.shields.io/badge/Blackzue-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
-<a href="https://github.com/Blackzue"><img title="Author" src="https://img.shields.io/badge/Author-Blackzue/Blackzue-OFC?color=red&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/Blackzue"><img title="Author" src="https://img.shields.io/badge/Author-Blackzue/Blackzue-OFC?color=f7df1e&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">
@@ -22,22 +22,36 @@ Project created by <a href="https://github.com/Blackzue">Blackzue</a> to make it
   <a href="httsp://github.com/Blackzue/Blackzue-OFC">
     <img src="https://img.shields.io/github/repo-size/Blackzue/Blackzue-OFC?color=green&label=Repo%20total%20size&style=plastic">
 <p align="center">
-<a href="https://github.com/Blackzue/followers"><img title="Followers" src="https://img.shields.io/github/followers/Blackzue?color=blue&style=flat-square"></a>
-<a href="https://github.com/Blackzue/Blackzue-OFC/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Blackzue/Blackzue-OFC?color=blue&style=flat-square"></a>
-<a href="https://github.com/Blackzue/Blackzue-OFC/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Blackzue/Blackzue-OFC?color=blue&style=flat-square"></a>
-<a href="https://github.com/Blackzue/Blackzue-OFC/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Blackzue/Blackzue-OFC?label=Watchers&color=blue&style=flat-square"></a>
-<a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-blue.svg"</a>
+<a href="https://github.com/Blackzue/followers"><img title="Followers" src="https://img.shields.io/github/followers/Blackzue?color=f7df1e&style=flat-square"></a>
+<a href="https://github.com/Blackzue/Blackzue-OFC/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Blackzue/Blackzue-OFC?color=f7df1e&style=flat-square"></a>
+<a href="https://github.com/Blackzue/Blackzue-OFC/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Blackzue/Blackzue-OFC?color=f7df1e&style=flat-square"></a>
+<a href="https://github.com/Blackzue/Blackzue-OFC/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Blackzue/Blackzue-OFC?label=Watchers&color=f7df1e&style=flat-square"></a>
+<a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-f7df1e.svg"</a>
 </p>
+
+<h3 align="center">Contact Me:</h3>
+<p align="center">
+<a href="https://instagram.com/_man____u__x46?utm_medium=copy_link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="kyrie.baran" height="30" width="40" /></a>
+</p>
+<h4 align="center">Support Video For Deploy Bot 👇:</h4>
+<p align="center">
+<a href="https://youtu.be/_D4ZYuUSXjs" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1200px-Logo_of_YouTube_%282015-2017%29.svg.png" height="45" width="90" /></a>
+</p>
+  
+
+<div align="center">
+<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Blackzue&show_icons=true&theme=nightowl" alt="Blackzue" /></p>
+
+<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Blackzue&theme=nightowl" alt="Blackzue" /></p>
+</details> </div>
+
 
 ## 📢 Guide
 Click WA logo to Join Support Group 👇
     <br>
 <br>
-  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/GUhzlg6Yhkj611fLl5HkpN)
-  <div align="center">
+  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/FsDjV2uRKce4wgMpAtYwyf)
        
-  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Blackzue&repo=PublicBot&theme=nightowl)](https://github.com/Blackzue/PublicBot)
-  </div>
     
 ## Setup
 <div align="center">
@@ -92,9 +106,9 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ## Developers
   <div align="center">
     
-  [![Blackzue](https://github.com/Blackzue-OFC-407x400.png?size=100)](https://github.com/Blackzue) |  [![TOXIC4L!3N](https://github.com/Alien-alfa.png?size=100)](https://github.com/AI-VIKI) | [![afnanplk](https://github.com/afnanplk.png?size=100)](https://github.com/afnanplk) 
+  [![ameer-kallumthodi](https://github.com/ameer-kallumthodi.png?size=100)](https://github.com/ameer-kallumthodi) |  [![Hisham-Muhammed](https://github.com/Hisham-Muhammed.png?size=100)](https://github.com/Hisham-Muhammed) | [![saidalisaid2](https://github.com/saidalisaid2.png?size=100)](https://github.com/saidalisaid2) 
 ----|----|----
-[farhan-dqz](https://github.com/farhan-dqz)  | [TOXIC4L!3N](https://github.com/AI-VIKI) | [afnanplk](https://github.com/afnanplk)
+[ameer-kallumthodi](https://github.com/ameer-kallumthodi)  | [Hisham-Muhammed](https://github.com/Hisham-Muhammed) | [saidalisaid2](https://github.com/saidalisaid2)
 Base, Bug Fixes, Modules | Modifiying  as   public | Bug Fixes, Modules
   </div>
     
