@@ -1,35 +1,53 @@
+/* Copyright (C) 2021 AFNAN PALLIKKEL
+CODDED AFNAN PALLIKKEL
+Re edited Raashii
+Licensed under the  GPL-3.0 License;
+you may not use this file except in compliance with the License.
+PINKY
+*/
+
 const Asena = require('../events');
-const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
-const axios = require('axios');
+const {MessageType} = require('@adiwajshing/baileys');
+const {spawnSync} = require('child_process');
+const Config = require('../config');
+const chalk = require('chalk');
 
 const Language = require('../language');
-const Lang = Language.getString('wallpaper');
-
-Asena.addCommand({pattern: 'owner', fromMe: false, desc: Lang.WP}, (async (message, match) => {
-
-    var r_text = new Array ();
-    
-    
-   
-  r_text[0] = "https://i.ibb.co/XjDC6sP/IMG-20210731-WA0008.jpg";
-    
-    
-    var i = Math.floor(1*Math.random())
-
-    var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
-
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*creater Raashii & Priyan*
+const Lang = Language.getString('system_stats');
 
 
+if (Config.WORKTYPE == 'private') {
 
-*owner number wa.me/916282120758*
+    Asena.addCommand({pattern: 'owner', fromMe: true, desc: 'shows the detail of bot owner'}, (async (message, match) => {
 
-*githublink       https://github.com/Raashii/Zara*
+        if (message.jid === '15369524516-1612300121@g.us') {
 
-*audio commads    https://github.com/Raashii/Zara/tree/master/uploads*
+            return;
+        }
 
-*sticker commads  https://github.com/Raashii/Zara/tree/master/stickers*
+        if (Config.PLK == 'default') {
+            await message.client.sendMessage(message.jid,'ᴢᴀʀᴀ ᴍᴏʟ Bot created by *Raashii & jokerser*' , MessageType.text);
+        }
+        else {
+            await message.client.sendMessage(message.jid,Config.PLK + '\n\n---------------------', MessageType.text);
+        }
+    }));
+}
 
-`}) 
+else if (Config.WORKTYPE == 'public') {
 
-}));
+    Asena.addCommand({pattern: 'owner', fromMe: false, desc: 'shows the detail of bot owner'}, (async (message, match) => {
+
+        if (message.jid === '54218542512-1612300121@g.us') {
+
+            return;
+        }
+
+        if (Config.PLK == 'default') {
+            await message.client.sendMessage(message.jid,'ᴢᴀʀᴀ ᴍᴏʟ Bot created by *Raashii & jokerser*' , MessageType.text);
+        }
+        else {
+            await message.client.sendMessage(message.jid,Config.PLK + '\n\n--------------------', MessageType.text);
+        }
+    }));
+}
