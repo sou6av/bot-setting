@@ -32,12 +32,12 @@
             "value": "true"
         },
         "GIF_WEL": {
-            "description": "Welcome message video වෙනස් කිරීම සඳහා ඔබගේ video link පහත සඳහන් කරන්න.",
+            "description": "Welcome message video link.",
             "required": true,
             "value": "https://i.imgur.com/iRCjokG.mp4"
         },
         "GIF_BYE": {
-            "description": "Goodbye message video වෙනස් කිරීම සඳහා ඔබගේ video link පහත සඳහන් කරන්න.",
+            "description": "Goodbye message video link.",
             "required": true,
             "value": "https://i.imgur.com/NTar8dQ.mp4"
         },
