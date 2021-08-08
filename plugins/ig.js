@@ -24,7 +24,7 @@ if (Config.WORKTYPE == 'private') {
 
       const json = JSON.parse(response.body);
 
-      if (response.statusCode === 200) return await message.client.sendMessage(message.jid, 'LINK_FOR_DOWNLOAD  :' + json.media, MessageType.text);
+      if (response.statusCode === 200) return await message.client.sendMessage(message.jid, 'LINK_FOR_DOWNLOAD  :' + json.result , MessageType.text);
     } catch {
       return await message.client.sendMessage(message.jid, Lang.NOT_FOUNDMD, MessageType.text);
     }
@@ -44,7 +44,7 @@ else if (Config.WORKTYPE == 'public') {
 
       const json = JSON.parse(response.body);
 
-      if (response.statusCode === 200) return await message.client.sendMessage(message.jid, 'click_link-click_three_dote-click_download  :' + json.media, MessageType.text);
+      if (response.statusCode === 200) return await message.client.sendMessage(message.jid, 'click_link-click_three_dote-click_download  :' + json.result , MessageType.text);
     } catch {
       return await message.client.sendMessage(message.jid, Lang.NOT_FOUNDMD, MessageType.text);
     }
