@@ -12,7 +12,7 @@ const need = "Command Kazhinn Yanthankilum Eyuth muthe\n🙄🙄🙄"
 
 if (Config.WORKTYPE == 'private') {
 
-  Asena.addCommand({ pattern: 'greenneon ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+  Asena.addCommand({ pattern: 'gneon ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
     if (match[1] === '') return await message.sendMessage(need);
 
@@ -25,7 +25,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-  Asena.addCommand({ pattern: 'greenneon ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  Asena.addCommand({ pattern: 'gneon ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
     if (match[1] === '') return await message.sendMessage(need);
 
