@@ -1,5 +1,5 @@
 <div align="center">
-raashii & jokerser
+raashii & joker ser
 <div align="center">
   <img border-radius: 15px src="https://i.ibb.co/XjDC6sP/IMG-20210731-WA0008.jpg" width="200" height="200"/>
   <p align="center">
