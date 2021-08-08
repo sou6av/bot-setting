@@ -1,4 +1,5 @@
-/* Coded by Raashii 
+/* Coded by Raashii
+I am not responsible for this api 
 */
 
 
