@@ -17,7 +17,7 @@ if (Config.WORKTYPE == 'private') {
 
     var ttinullimage = await axios.get(`https://api.zeks.xyz/api/brand-logo?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&text=${encodeURIComponent(match[1])}&type=1`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Zara😌*' })
+    await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP + '\n\n----------ᴢᴀʀᴀʙᴏᴛ-----------' })
 
   }));
 
@@ -27,7 +27,7 @@ Asena.addCommand({ pattern: 'zlogo2 ?(.*)', fromMe: true, dontAddCommandList: tr
 
     var ttinullimage = await axios.get(`https://api.zeks.xyz/api/brand-logo?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&text=${encodeURIComponent(match[1])}&type=2`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Zara😌*' })
+    await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP + '\n\n----------ᴢᴀʀᴀʙᴏᴛ-----------' })
 
   }));
 
@@ -37,7 +37,7 @@ Asena.addCommand({ pattern: 'zlogo3 ?(.*)', fromMe: true, dontAddCommandList: tr
 
   var ttinullimage = await axios.get(`https://api.zeks.xyz/api/brand-logo?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&text=${encodeURIComponent(match[1])}&type=3`, { responseType: 'arraybuffer' })
 
-  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Zara😌*' })
+  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP + '\n\n----------ᴢᴀʀᴀʙᴏᴛ-----------' })
 
 }));
 
@@ -47,7 +47,7 @@ Asena.addCommand({ pattern: 'zlogo4 ?(.*)', fromMe: true, dontAddCommandList: tr
 
   var ttinullimage = await axios.get(`https://api.zeks.xyz/api/brand-logo?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&text=${encodeURIComponent(match[1])}&type=4`, { responseType: 'arraybuffer' })
 
-  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Zara😌*' })
+  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP + '\n\n----------ᴢᴀʀᴀʙᴏᴛ-----------' })
 
 }));
 
@@ -57,7 +57,7 @@ Asena.addCommand({ pattern: 'zlogo5 ?(.*)', fromMe: true, dontAddCommandList: tr
 
   var ttinullimage = await axios.get(`https://api.zeks.xyz/api/brand-logo?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&text=${encodeURIComponent(match[1])}&type=5`, { responseType: 'arraybuffer' })
 
-  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Zara😌*' })
+  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP + '\n\n----------ᴢᴀʀᴀʙᴏᴛ-----------' })
 
 }));
 
@@ -67,7 +67,7 @@ Asena.addCommand({ pattern: 'zlogo6 ?(.*)', fromMe: true, dontAddCommandList: tr
 
   var ttinullimage = await axios.get(`https://api.zeks.xyz/api/brand-logo?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&text=${encodeURIComponent(match[1])}&type=6`, { responseType: 'arraybuffer' })
 
-  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Zara😌*' })
+  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP + '\n\n----------ᴢᴀʀᴀʙᴏᴛ-----------' })
 
 }));
 
@@ -77,7 +77,7 @@ Asena.addCommand({ pattern: 'zlogo7 ?(.*)', fromMe: true, dontAddCommandList: tr
 
   var ttinullimage = await axios.get(`https://api.zeks.xyz/api/brand-logo?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&text=${encodeURIComponent(match[1])}&type=7`, { responseType: 'arraybuffer' })
 
-  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Zara😌*' })
+  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP + '\n\n----------ᴢᴀʀᴀʙᴏᴛ-----------' })
 
 }));
 
@@ -87,7 +87,7 @@ Asena.addCommand({ pattern: 'zlogo8 ?(.*)', fromMe: true, dontAddCommandList: tr
 
   var ttinullimage = await axios.get(`https://api.zeks.xyz/api/brand-logo?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&text=${encodeURIComponent(match[1])}&type=8`, { responseType: 'arraybuffer' })
 
-  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Zara😌*' })
+  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP + '\n\n----------ᴢᴀʀᴀʙᴏᴛ-----------' })
 
 }));
 
@@ -97,7 +97,7 @@ Asena.addCommand({ pattern: 'zlogo9 ?(.*)', fromMe: true, dontAddCommandList: tr
 
   var ttinullimage = await axios.get(`https://api.zeks.xyz/api/brand-logo?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&text=${encodeURIComponent(match[1])}&type=9`, { responseType: 'arraybuffer' })
 
-  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Zara😌*' })
+  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP + '\n\n----------ᴢᴀʀᴀʙᴏᴛ-----------' })
 
 }));
 
@@ -107,7 +107,7 @@ Asena.addCommand({ pattern: 'zlogo10 ?(.*)', fromMe: true, dontAddCommandList: t
 
   var ttinullimage = await axios.get(`https://api.zeks.xyz/api/brand-logo?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&text=${encodeURIComponent(match[1])}&type=10`, { responseType: 'arraybuffer' })
 
-  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Zara😌*' })
+  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP + '\n\n----------ᴢᴀʀᴀʙᴏᴛ-----------' })
 
 }));
 
@@ -121,7 +121,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var ttinullimage = await axios.get(`https://api.zeks.xyz/api/brand-logo?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&text=${encodeURIComponent(match[1])}&type=1`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Zara😌*' })
+    await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP + '\n\n----------ᴢᴀʀᴀʙᴏᴛ-----------' })
 
   }));
 
@@ -131,7 +131,7 @@ Asena.addCommand({ pattern: 'zlogo2 ?(.*)', fromMe: false, dontAddCommandList: t
 
   var ttinullimage = await axios.get(`https://api.zeks.xyz/api/brand-logo?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&text=${encodeURIComponent(match[1])}&type=2`, { responseType: 'arraybuffer' })
 
-  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Zara😌*' })
+  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP + '\n\n----------ᴢᴀʀᴀʙᴏᴛ-----------' })
 
 }));
 
@@ -141,7 +141,7 @@ Asena.addCommand({ pattern: 'zlogo3 ?(.*)', fromMe: false, dontAddCommandList: t
 
   var ttinullimage = await axios.get(`https://api.zeks.xyz/api/brand-logo?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&text=${encodeURIComponent(match[1])}&type=3`, { responseType: 'arraybuffer' })
 
-  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Zara😌*' })
+  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP + '\n\n----------ᴢᴀʀᴀʙᴏᴛ-----------' })
 
 }));
 
@@ -151,7 +151,7 @@ Asena.addCommand({ pattern: 'zlogo4 ?(.*)', fromMe: false, dontAddCommandList: t
 
   var ttinullimage = await axios.get(`https://api.zeks.xyz/api/brand-logo?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&text=${encodeURIComponent(match[1])}&type=4`, { responseType: 'arraybuffer' })
 
-  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Zara😌*' })
+  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP + '\n\n----------ᴢᴀʀᴀʙᴏᴛ-----------' })
 
 }));
 
@@ -161,7 +161,7 @@ Asena.addCommand({ pattern: 'zlogo5 ?(.*)', fromMe: false, dontAddCommandList: t
 
   var ttinullimage = await axios.get(`https://api.zeks.xyz/api/brand-logo?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&text=${encodeURIComponent(match[1])}&type=5`, { responseType: 'arraybuffer' })
 
-  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Zara😌*' })
+  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP + '\n\n----------ᴢᴀʀᴀʙᴏᴛ-----------' })
 
 }));
 
@@ -171,7 +171,7 @@ Asena.addCommand({ pattern: 'zlogo6 ?(.*)', fromMe: false, dontAddCommandList: t
 
   var ttinullimage = await axios.get(`https://api.zeks.xyz/api/brand-logo?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&text=${encodeURIComponent(match[1])}&type=6`, { responseType: 'arraybuffer' })
 
-  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Zara😌*' })
+  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP + '\n\n----------ᴢᴀʀᴀʙᴏᴛ-----------' })
 
 }));
 
@@ -181,7 +181,7 @@ Asena.addCommand({ pattern: 'zlogo7 ?(.*)', fromMe: false, dontAddCommandList: t
 
   var ttinullimage = await axios.get(`https://api.zeks.xyz/api/brand-logo?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&text=${encodeURIComponent(match[1])}&type=7`, { responseType: 'arraybuffer' })
 
-  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Zara😌*' })
+  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP + '\n\n----------ᴢᴀʀᴀʙᴏᴛ-----------' })
 
 }));
 
@@ -191,7 +191,7 @@ Asena.addCommand({ pattern: 'zlogo8 ?(.*)', fromMe: false, dontAddCommandList: t
 
   var ttinullimage = await axios.get(`https://api.zeks.xyz/api/brand-logo?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&text=${encodeURIComponent(match[1])}&type=8`, { responseType: 'arraybuffer' })
 
-  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Zara😌*' })
+  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP + '\n\n----------ᴢᴀʀᴀʙᴏᴛ-----------' })
 
 }));
 
@@ -201,7 +201,7 @@ Asena.addCommand({ pattern: 'zlogo9 ?(.*)', fromMe: false, dontAddCommandList: t
 
   var ttinullimage = await axios.get(`https://api.zeks.xyz/api/brand-logo?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&text=${encodeURIComponent(match[1])}&type=9`, { responseType: 'arraybuffer' })
 
-  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Zara😌*' })
+  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP + '\n\n----------ᴢᴀʀᴀʙᴏᴛ-----------' })
 
 }));
 
@@ -211,7 +211,7 @@ Asena.addCommand({ pattern: 'zlogo10 ?(.*)', fromMe: false, dontAddCommandList: 
 
   var ttinullimage = await axios.get(`https://api.zeks.xyz/api/brand-logo?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&text=${encodeURIComponent(match[1])}&type=10`, { responseType: 'arraybuffer' })
 
-  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Zara😌*' })
+  await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP + '\n\n----------ᴢᴀʀᴀʙᴏᴛ-----------' })
 
 }));
 
