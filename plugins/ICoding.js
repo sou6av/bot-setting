@@ -29,7 +29,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var ttinullimage = await axios.get(`https://api.zeks.xyz/api/matrix?apikey=LVJsk3tIlDiQUa4AuncQAYe9XIp&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP + '\n\n *----------ᴢᴀʀᴀʙᴏᴛ-----------*' })
+    await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP + '\n\n*----------ᴢᴀʀᴀʙᴏᴛ-----------*' })
 
   }));
 
