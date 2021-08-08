@@ -16,7 +16,7 @@ if (Config.WORKTYPE == 'private') {
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_EMOJI, MessageType.text);
         var uri = encodeURI(match[1])
         var ttinullimage = await axios.get('https://api.zeks.xyz/api/emoji-image?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&emoji=' + uri, { responseType: 'arraybuffer' })
-        await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: 'Made by Zara' })
+        await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP + '\n\n----------ᴢᴀʀᴀʙᴏᴛ-----------' })
     }));
 }
 else if (Config.WORKTYPE == 'public') {
@@ -24,6 +24,6 @@ else if (Config.WORKTYPE == 'public') {
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_EMOJI, MessageType.text);
         var uri = encodeURI(match[1])
         var ttinullimage = await axios.get('https://api.zeks.xyz/api/emoji-image?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&emoji=' + uri, { responseType: 'arraybuffer' })
-        await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: 'Made by Zara' })
+        await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAP + '\n\n----------ᴢᴀʀᴀʙᴏᴛ-----------' })
     }));
 }
