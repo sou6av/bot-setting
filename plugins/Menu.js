@@ -96,69 +96,71 @@ Coded By *Joker ser & raashii*
 ⚠️example - .anime zara
 ■□■□■□■□𝐙𝐀𝐑𝐀■□■□■□■□
 ᯾ *𝙏𝙚𝙭𝙩 𝙩𝙤 𝙞𝙢𝙜 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ᯾
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -rff
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -gneon «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to free fire image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -lpubg
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -rff «yourtext»
+🍙𝙐𝙨𝙚➜  its send text to free fire image
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -lpubg «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to pubg image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -book
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -book «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -aveng
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -aveng «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zlogo1
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zlogo1 «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zlogo2
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zlogo2 «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zlogo3
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zlogo3 «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zlogo4
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zlogo4 «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zlogo5
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zlogo5 «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zlogo6
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zlogo6 «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
 ➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zlogo7
 🍙𝙐𝙨𝙚➜  its send text to image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zlogo8
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zlogo8 «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
 ➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zlogo9
 🍙𝙐𝙨𝙚➜  its send text to image 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zlogo10
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zlogo10 «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zleavest
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zleavest «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zglitch
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zglitch «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -gp
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -gp «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -coding
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -coding «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -threed
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -threed «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -neon
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -neon «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -rglow
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -rglow «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -rbreakwall
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -rbreakwall «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -rdropwater
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -rdropwater «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zcolour
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zcolour «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zflower
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zflower «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zflame
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zflame «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
 ➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zfw
 🍙𝙐𝙨𝙚➜  its send text to image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zsky
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zsky «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zsilk
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zsilk «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zsand
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zsand «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zxmas
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -zxmas «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -lwolf
+➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -lwolf «yourtext»
 🍙𝙐𝙨𝙚➜  its send text to image 
 ■□■□■𝐙𝐀𝐑𝐀□■□■□■□
 ♝ *𝙎𝙩𝙞𝙘𝙠𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♝
