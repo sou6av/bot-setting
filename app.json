@@ -44,7 +44,6 @@
         "ANTİ_LİNK": {
             "description": "Link Engelleme Sistemi. Link Blocking System.",
             "required": true,
-
             "value": "false"
         },
         "AUTO_BİO": {
