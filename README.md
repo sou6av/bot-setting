@@ -1,7 +1,7 @@
 <div align="center">
 CHKSPARK
 <div align="center">
-  <img border-radius: 15px src="https://i.ibb.co/XjDC6sP/images (4).jpeg" width="200" height="200"/>
+  <img border-radius: 15px src="https://i.ibb.co/XjDC6sP/Panda. Jpeg" width="600" height="606"/>
   <p align="center">
 <a href="#"><img title="Panda" src="https://img.shields.io/badge/-Panda-blue?&style=for-the-badge"></a>
 </p>
