@@ -17,13 +17,13 @@ if (Config.WORKTYPE == 'private') {
     
     if (match[1] === '') return await message.sendMessage(need);
     
-    const url = `https://api.lolhuman.xyz/api/instagram2?apikey=qamdi5652&url=${encodeURIComponent(match[1])}`;
+    const url = `https://api.lolhuman.xyz/api/instagram2?apikey=queenamdipublic&url=${encodeURIComponent(match[1])}`;
     try {
       const response = await got(url);
 
       const json = JSON.parse(response.body);
 
-      if (response.statusCode === 200) return await message.client.sendMessage(message.jid, 'LINK_FOR_DOWNLOAD  :' + json.media, MessageType.text);
+      if (response.statusCode === 200) return await message.client.sendMessage(message.jid, 'LINK_FOR_DOWNLOAD  :' + json.result, MessageType.text);
     } catch {
       return await message.client.sendMessage(message.jid, Lang.NOT_FOUNDMD, MessageType.text);
     }
@@ -37,13 +37,13 @@ else if (Config.WORKTYPE == 'public') {
     
     if (match[1] === '') return await message.sendMessage(need);
     
-    const url = `https://api.lolhuman.xyz/api/instagram2?apikey=qamdi5652&url=${encodeURIComponent(match[1])}`;
+    const url = `https://api.lolhuman.xyz/api/instagram2?apikey=queenamdipublic&url=${encodeURIComponent(match[1])}`;
     try {
       const response = await got(url);
 
       const json = JSON.parse(response.body);
 
-      if (response.statusCode === 200) return await message.client.sendMessage(message.jid, 'click_link-click_three_dote-click_download  :' + json.media, MessageType.text);
+      if (response.statusCode === 200) return await message.client.sendMessage(message.jid, 'click_link-click_three_dote-click_download  :' + json.result, MessageType.text);
     } catch {
       return await message.client.sendMessage(message.jid, Lang.NOT_FOUNDMD, MessageType.text);
     }
