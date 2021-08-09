@@ -10,7 +10,7 @@ CHKSPARK
 </p>
 </div>
 <p align="center">
-Project created by <a href="https://github.com/CHKSPARK">CHKSPARK</a> & <a href="https://github.com/J0kerser">JOKER SER</a> to make it public
+Project created by <a href="https://github.com/CHKSPARK">CHKSPARK</a> to make it public
     <br>
        | © |
         Reserved |
@@ -74,7 +74,7 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ## Developers
   <div align="center">
     
-  [![JOKERSER](https://i.ibb.co/XjDC6sP/IMG-20210731-WA0008.jpg)](https://github.com/J0kerser) |  
+  [![JOKERSER](https://i.ibb.co/XjDC6sP/images (4).jpeg)](https://github.com/J0kerser) |  
 ----|
 [ʀᴀᴀssʜɪɪ](https://github.com/CHKSPARK) & [ᴊᴏᴋᴇʀsᴇʀ](https://github.com/J0kerser) |
 Base, Bug Fixes, Modules | 
