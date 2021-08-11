@@ -186,7 +186,7 @@
             "SONG_DESC": "Uploads the song you wrote.",
             "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song Naadan Vibe```",
             "NO_RESULT": "*I couldn't find anything :(*",
-            "DOWNLOADING_SONG": "\n*Song Thapatte 🧚‍♂️*\n",
+            "DOWNLOADING_SONG": "\n*Song search cheyyatte 🧚‍♂️*\n",
             "UPLOADING_SONG": "\n*Uploading 📲 Use 🎧*\n",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
@@ -204,7 +204,7 @@
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```Ippam Seriyakithra 🤠```"
+            "DOWNLOADING": "```Ippo Set akka ⚡```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
@@ -217,13 +217,13 @@
         "updater": {
             "UPDATER_DESC": "Checks the update.",
             "UPDATE": "*Your bot is completely up-to-date!*",
-            "NEW_UPDATE": "*Pikachu Update Available*\n\n please ask support group before updating. Otherwise chance to get error\n https://chat.whatsapp.com/FsDjV2uRKce4wgMpAtYwyf \n\nChanges:\n```",
+            "NEW_UPDATE": "*𝐑𝐀𝐆𝐀𝐍𝐎𝐑𝐊 Update Available*\n\n please ask support group before updating. Otherwise chance to get error\n https://chat.whatsapp.com/G18G7QjUqi6GqkWvUwre4u \n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "```Updating..🧚‍♂️```",
+            "UPDATING": "```Updating..‍⚡```",
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
-            "UPDATED": "*Updated 🤠✅*",
+            "UPDATED": "*Updated ⚡✅*",
             "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*😎 Pikachu Restarting*"
+            "AFTER_UPDATE": "*⚡ 𝐑𝐀𝐆𝐀𝐍𝐎𝐑𝐊 Restarting ⚡*"
         },
         "weather": {
             "WEATHER_DESC": "Shows the weather.",
