@@ -1,6 +1,6 @@
 /* Copyright (C) 2020 Yusuf Usta.
 
-Licensed under the  GPL-3.0 License;
+Licensed under the  GPL-3a.0 License;
 you may not use this file except in compliance with the License.
 
 WhatsAsena - Yusuf Usta
@@ -938,7 +938,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                 }
                                 else {
                                     return await conn.sendMessage(conn.user.jid, '*🙇🏻 Sorry, I Couldnt Read This Error! 🙇🏻*' +
-                                        '\n_You can write to our support group for more help /n https://chat.whatsapp.com/G18G7QjUqi6GqkWvUwre4u._'
+                                        '\n_You can write to our support group for more help /n https://chat.whatsapp.com/G18G7QjUqi6GqkWvUwre4u'
                                         , MessageType.text
                                     );
                                 }    
