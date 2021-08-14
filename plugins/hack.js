@@ -25,11 +25,11 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'anon ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+    Asena.addCommand({ pattern: 'hecker ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
-        var ttinullimage = await axios.get(`https://api.lolhuman.xyz/api/ephoto1/anonymhacker?apikey=7f2d5e1327bf3a3c153392ca&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/matrix?apikey=TqFyJhzDvqftPnM63RQsWGwOdXZ&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: 'Made by 𝐑𝐀𝐆𝐀𝐍𝐎𝐑𝐊' })
