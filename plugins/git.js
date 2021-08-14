@@ -18,12 +18,21 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*Creator Sourav_kl11*
-*owner number wa.me/919645628728*
-*bot setting video : DM me*
-*githublink       https://github.com/souravkl11/Raganork/*
-*audio commads    https://github.com/souravkl11/Raganork/tree/master/uploads*
-*sticker commads  https://github.com/souravkl11/Raganork/tree/master/uploads*
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `𝐑𝐀𝐆𝐀𝐍𝐎𝐑𝐊
+
+ Creator -  *Sourav_mp4* 
+
+*GitHub link*: *_www.github.com/souravkl11/Raganork_* 
+
+*Audio commands*: _https://github.com/souravkl11/Raganork/tree/master/uploads_   
+
+*Sticker commands*: _https://github.com/souravkl11/Raganork/tree/master/sticker_
+
+*Contact owner*: _https://wa.me/%2B919645628728?text=Hi%20Sourav.%20I%20liked%20your%20bot_
+
+*Instagram*: _https://www.instagram.com/sourav_mp4/_
+
+💥ӄɨʟʟǟɖɨֆʍ ռɛʋɛʀ ɛռɖֆ💥
 `}) 
 
 }));
