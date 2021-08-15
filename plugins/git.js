@@ -22,7 +22,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
 
  Creator -  *Sourav_mp4* 
 
-*GitHub link(setup)*: *_www.github.com/souravkl11/Raganork_* 
+*GitHub link(setup)*:  *www.github.com/souravkl11/Raganork* 
 
 *Audio commands*: _https://github.com/souravkl11/Raganork/tree/master/uploads_   
 
