@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img border-radius: 15px src="raga.jpg" width="200" height="200"/>
+  <img border-radius: 15px src="raga.jpg" width="400" height="300"/>
   <p align="center">
 <a href="#"><img title="Raganork" src="https://img.shields.io/badge/Raganork-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
@@ -50,7 +50,9 @@ Project created by <a href="https://github.com/souravkl11">souravkl11</a> to mak
 Click WA logo to Join Support Group 👇
     <br>
 <br>
-  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/G18G7QjUqi6GqkWvUwre4u)
+  <div align="center">
+    
+  [![join](https://opportunitiesforyoungkenyans.co.ke/wp-content/uploads/2020/05/images.png-whatsapp.png)](https://chat.whatsapp.com/G18G7QjUqi6GqkWvUwre4u)
 
 
     
@@ -62,7 +64,7 @@ Click WA logo to Join Support Group 👇
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@phaticusthiccy/WhatsAsena-QR)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/souravkl11/Raganork.git)
-     </div>
+     <div align="left">
 <br>
 <br >
 If Repl.it not working Try Termux for Qr scanning.Just Copy the Link Below in Termux
