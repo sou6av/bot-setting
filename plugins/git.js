@@ -28,11 +28,13 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
 
 *Sticker commands*: _https://github.com/souravkl11/Raganork/tree/master/sticker_
 
-*Contact owner*: _https://wa.me/919645628728?text=I%20liked%20your%20bot.%20Use%20this%20number%20for%20chatting%3A%20https%3A%2F%2Fwa.me%2F19792896548%3Ftext%3DI%2520need%2520more%2520details%2520about%2520*Raganork*%2520bot_
+*Contact owner*: *Through instagram 😉*
 
 *Instagram*: _https://www.instagram.com/sourav_mp4/_
 
 *(This bot is forked from Pikachu.All codes and plugins and files have respected owners. This is only a modified version of Pikachu)*
+
+Special Thanks: *Saidali*
 
 💥ӄɨʟʟǟɖɨֆʍ ռɛʋɛʀ ɛռɖֆ💥
 `}) 
