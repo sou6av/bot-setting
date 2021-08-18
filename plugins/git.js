@@ -32,6 +32,8 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
 
 *Instagram*: _https://www.instagram.com/sourav_mp4/_
 
+*(This bot is forked from Pikachu.All codes and plugins and files have respected owners. This is only a modified version of Pikachu)*
+
 💥ӄɨʟʟǟɖɨֆʍ ռɛʋɛʀ ɛռɖֆ💥
 `}) 
 
