@@ -59,14 +59,16 @@ Click WA logo to Join Support Group 👇
 ## Setup
 <div align="center">
 
-  ### Simple Method
-  Step-1: Click on replit and scan qr code
+  ### <u> Simple Method <u>
+  Step-1: Click on scan qr code and get asena code
   
   Step-2: Deploy To Heroku
   
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@phaticusthiccy/WhatsAsena-QR)
+  Step 3: Turn on worker
+  
+[![Run on Repl.it](https://www.linkpicture.com/q/Untitled-3_10.jpg)](https://replit.com/@phaticusthiccy/WhatsAsena-QR)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/souravkl11/Raganork.git)
+[![Deploy](https://www.linkpicture.com/q/heroku.jpg)](https://heroku.com/deploy?template=https://github.com/souravkl11/Raganork.git)
      <div align="left">
 <br>
 <br >
