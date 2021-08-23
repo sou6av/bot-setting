@@ -813,7 +813,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                 await conn.sendMessage(conn.user.jid, '*-- ERROR REPORT [𝐑𝐀𝐆𝐀𝐍𝐎𝐑𝐊] --*' + 
                                     '\n*𝐑𝐀𝐆𝐀𝐍𝐎𝐑𝐊 an error has occurred!*'+
                                     '\n*This error log may include your number or the number of an opponent. Please be careful with it!*' +
-                                    '\n*You can write to our Telegram group for help.*' +
+                                    '\n*സീൻ ഇല്ലാത്ത error ആണ്.*' +
                                     '\n*Aslo you can join our support group:* https://chat.whatsapp.com/G18G7QjUqi6GqkWvUwre4u' +
                                     '\n*This message should have gone to your number (saved messages).*\n\n' +
                                     '*Error:* ```' + error + '```\n\n'
@@ -937,7 +937,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else {
-                                    return await conn.sendMessage(conn.user.jid, '*🙇🏻 Sorry, I Couldnt Read This Error! 🙇🏻*' +
+                                    return await conn.sendMessage(conn.user.jid, '*🙇🏻സീൻ ഇല്ലാത്ത error ആണ്🙇🏻*' +
                                         '\n_You can write to our support group for more help /n https://chat.whatsapp.com/G18G7QjUqi6GqkWvUwre4u'
                                         , MessageType.text
                                     );
