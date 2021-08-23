@@ -25,9 +25,7 @@ Project created by <a href="https://github.com/souravkl11">souravkl11</a> to mak
 <a href="https://github.com/souravkl11/followers"><img title="Followers" src="https://img.shields.io/github/followers/souravkl11?color=f7df1e&style=flat-square"></a>
 <a href="https://github.com/souravkl11/Raganork/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/souravkl11/Raganork?color=f7df1e&style=flat-square"></a>
 <a href="https://github.com/souravkl11/Raganork/network/members"><img title="Forks" src="https://img.shields.io/github/forks/souravkl11/Raganork?color=f7df1e&style=flat-square"></a>
-<a href="https://github.com/souravkl11/Raganork/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/souravkl11/Raganork?label=Watchers&color=f7df1e&style=flat-square"></a>
-<a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-f7df1e.svg"</a>
-</p>
+
 
 <h3 align="center">Contact Me:</h3>
 <p align="center">
@@ -35,20 +33,14 @@ Project created by <a href="https://github.com/souravkl11">souravkl11</a> to mak
 </p>
 <h4 align="center">Support Video For Deploy Bot 👇:</h4>
 <p align="center">
-<a href="https://youtu.be/_D4ZYuUSXjs" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1200px-Logo_of_YouTube_%282015-2017%29.svg.png" height="45" width="90" /></a>
+<a href="https://youtu.be/iRLphwWvxrs" target="blank"><img align="center" src="https://i.ytimg.com/vi/iRLphwWvxrs/maxresdefault.jpg" height="180" width="300" /></a>
 </p>
   
-
 <div align="center">
-<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=souravkl11&show_icons=true&theme=nightowl" alt="souravkl11" /></p>
-
-<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=souravkl11&theme=nightowl" alt="souravkl11" /></p>
-</details> </div>
-
 
 ## 📢 Guide
-Click WA logo to Join Support Group 👇
-    <br>
+### Join Support Group 👇
+   
 <br>
   <div align="center">
     
