@@ -73,7 +73,7 @@
         },
         "heroku": {
             "RESTART_DESC": "\nRestart pinkymwol\n",
-            "RESTART_MSG": "```punararambikkunu...```",
+            "RESTART_MSG": "```Restart aavunu...```",
             "SHUTDOWN_DESC": "\nShutdown pinkymwol\n",
             "SHUTDOWN_MSG": "```adach poottunnu ⛔```",
             "DYNO_DESC": "heroku dyno kanaan ",
@@ -149,7 +149,7 @@
         },
         "profile": {
             "KICKME_DESC": "enne groupill nin purath akaan.",
-            "KICKME": "```Bye bye! njan povunnu 🤠```",
+            "KICKME": "```Sheri enna```",
             "PP_DESC": "reply cheytha chithram profil akkaan.",
             "NEED_PHOTO": "*Give me a photo!*",
             "PPING": "```profile maattunnu...```",
@@ -168,7 +168,7 @@
             "REMOVEBG_DESC": "chithrathinte background maayichu kalaayan.",
             "NEED_PHOTO": "*photo thaa mister!*",
             "NO_API_KEY": "*Api key illa aliyaa*\n```remove.bg login for apikey```",
-            "RBGING": "```maayikkunu...```"
+            "RBGING": "```maayikkunu...✏️ ```"
         },
         "scrapers": {
             "TRANSLATE_DESC": "google translator vech viverthanam cheyyunu, eathellum messagin reply cheyannam.",
@@ -204,7 +204,7 @@
         "sticker": {
             "STICKER_DESC": "chithram sticker akkaan.",
             "NEED_REPLY": "*photo allenkil chithram reply cheyyu!*",
-            "DOWNLOADING": "```Ippam Sheriyaakithara 🤠```"
+            "DOWNLOADING": "```Ippam readyakka ✂️ ```"
         },
         "system_stats": {
             "ALIVE_DESC": "bot working aano enn ariyan",
@@ -217,13 +217,13 @@
         "updater": {
             "UPDATER_DESC": "update indo enn ariyaan.",
             "UPDATE": "*ningalude bot up-to-date aan!*",
-            "NEW_UPDATE": "*Pikachu Puthiya Update Vannittund* \n\n update cheyummathin munb support groupil chodhikkuka , allenkkil error veran chance und\n\nChanges:\n```",
+            "NEW_UPDATE": "*𝐑𝐀𝐆𝐀𝐍𝐎𝐑𝐊 Puthiya Update Vannittund* \n\n update cheyummathin munb support groupil chodhikkuka , allenkkil error veran chance und\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "botine update cheyaan.",
             "UPDATING": "```Updating..🐥```",
             "INVALID_HEROKU": "*❌ ningal thanna Heroku information thett aan !*",
             "UPDATED": "*Updated 🤠✅*",
             "UPDATED_LOCAL": "*✅ vijayagaramayi Update cheythu!*",
-            "AFTER_UPDATE": "*😎 Pikachu Restarting..*"
+            "AFTER_UPDATE": "*😎 𝐑𝐀𝐆𝐀𝐍𝐎𝐑𝐊 Restarting..*"
         },
         "weather": {
             "WEATHER_DESC": "ningal therrunna sthalathe kaalavastha kaanikkum.",
