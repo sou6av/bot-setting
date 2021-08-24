@@ -32,7 +32,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
 
 *Instagram*: _https://www.instagram.com/sourav_mp4/_
 
- *Pikachu 💞*
+ *Sheri enna*
 
 💥ӄɨʟʟǟɖɨֆʍ ռɛʋɛʀ ɛռɖֆ💥
 `}) 
