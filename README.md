@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img border-radius: 15px src="newlogo.jpg" width="300" height="225"/>
+  <img border-radius: 15px src="777.jpg" width="300" height="225"/>
   <p align="center">
 <a href="#"><img title="Raganork" src="https://img.shields.io/badge/Raganork-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
