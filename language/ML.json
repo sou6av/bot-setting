@@ -167,7 +167,7 @@
         "removebg": {
             "REMOVEBG_DESC": "chithrathinte background maayichu kalaayan.",
             "NEED_PHOTO": "*photo thaa mister!*",
-            "NO_API_KEY": "*Api key illa aliyaa*\n```remove.bg login for apikey```",
+            "NO_API_KEY": "*Herokuvil poyi API key kodukk aliyaa...*\n```remove.bg poyi login cheythal API key kittum```",
             "RBGING": "```maayikkunu...✏️ ```"
         },
         "scrapers": {
