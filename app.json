@@ -111,7 +111,7 @@
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "\n ```Onnum avasaanichittilla !!!```\n\n```Type``` *.help* ```for commands```\n\n```💥𝐑𝐀𝐆𝐀𝐍𝐎𝐑𝐊💥```"
+            "value": "\n ```Killadism never ends !!!```\n\n```Type``` *.help* ```for commands```\n\n```𝐑𝐀𝐆𝐀𝐍𝐎𝐑𝐊```\n\n *Coded by Souravkl11*\n\n```Contact owner: wa.me/91xxxxxxxxxx"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
