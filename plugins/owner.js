@@ -39,7 +39,7 @@ else if (Config.WORKTYPE == 'public') {
             await message.client.sendMessage(message.jid,'𝐑𝐀𝐆𝐀𝐍𝐎𝐑𝐊 Bot created by *Sourav* (Whatsasena BASE)' , MessageType.text);
         }
         else {
-            await message.client.sendMessage(message.jid,Config.PLK + '\n\n--------------------', MessageType.text);
+            await message.client.sendMessage(message.jid,Config.PLK + '\n\n',Config.BOTPLK, MessageType.text);
         }
     }));
 }
