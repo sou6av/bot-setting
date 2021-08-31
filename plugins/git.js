@@ -11,30 +11,18 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
     
     
    
-  r_text[0] = "https://www.linkpicture.com/q/386.jpg";
+  r_text[0] = "https://github.com/souravkl11/raganork/raw/master/New%20logo.jpg";
     
     
     var i = Math.floor(1*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `𝐑𝐀𝐆𝐀𝐍𝐎𝐑𝐊
-
- Creator -  *Sourav_mp4* 
-
-*GitHub link(setup)*:  *www.github.com/souravkl11/Raganork* 
-
-*Audio commands*: _https://github.com/souravkl11/Raganork/tree/master/uploads_   
-
-*Sticker commands*: _https://github.com/souravkl11/Raganork/tree/master/sticker_
-
-*Contact owner*: *Through instagram 😉*
-
-*Instagram*: _https://www.instagram.com/sourav_mp4/_
-
- *Sheri enna*
-
-💥ӄɨʟʟǟɖɨֆʍ ռɛʋɛʀ ɛռɖֆ💥
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*RAGANORK* BOT CREATED BY SOURAVKL11
+    
+    *https://github.com/souravkl11/Raganork*
+    
+    ⚡𝙆𝙞𝙡𝙡𝙖𝙙𝙞𝙨𝙢 𝙣𝙚𝙫𝙚𝙧 𝙚𝙣𝙙𝙨⚡
 `}) 
 
 }));
