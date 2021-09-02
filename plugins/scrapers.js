@@ -1,7 +1,5 @@
 /* Copyright (C) 2020 Yusuf Usta.
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-WhatsAsena - Yusuf Usta
+   Re-edited by souravkl11
 */
 
 const Asena = require('../events');
@@ -399,7 +397,7 @@ if (config.WORKTYPE == 'private') {
                 return;
     
             let 
-                LANG = 'ml',
+                LANG = config.LANG.toLowerCase(),
                 ttsMessage = match[1],
                 SPEED = 1.0
 
@@ -426,7 +424,7 @@ if (config.WORKTYPE == 'private') {
                 return;
     
             let 
-                LANG = 'ml',
+                LANG = config.LANG.toLowerCase(),
                 ttsMessage = match[1],
                 SPEED = 1.0
 
@@ -893,7 +891,7 @@ else if (config.WORKTYPE == 'public') {
             return;
     
         let 
-            LANG = 'ml',
+            LANG = config.LANG.toLowerCase(),
             ttsMessage = match[1],
             SPEED = 1.0
 
