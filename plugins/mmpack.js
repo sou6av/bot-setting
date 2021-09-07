@@ -5,7 +5,7 @@ const axios = require('axios');
 const Config = require('../config');
 const ll ="എന്തെങ്കിലും type ആക് 🙇‍♂️"
 const Ln = "▷🤖നിങ്ങൾ ആഗ്രഹിക്കുന്ന രീതിയിൽ  Meme-കൾ ഇച്ഛാനുസൃതമാക്കാൻ  Meme ലിസ്റ്റ്◁ "
-const code = "╔════◉ COMMANDS ◉════╗\n\n            ❖═List═❖\n*🔮.yasai       ❴text❵\n🔮.uddika    ❴text❵\n🔮.aah          ❴text❵\n🔮.sir            ❴text❵\n🔮.my3         ❴text❵\n🔮.fuck         ❴text❵\n🔮.hii             ❴text❵\n🔮.asai          ❴text❵\n🔮.hapoi       ❴text❵\n🔮.quby1    ❴text❵\n🔮.quby2    ❴text❵\n🔮.quby3    ❴text❵\n🔮.quby4    ❴text❵\n🔮.cat1    ❴text❵\n🔮.cat2    ❴text❵\n🔮.cat3    ❴text❵\n🔮.cat4    ❴text❵\n🔮.meme1    ❴text❵\n🔮.meme2    ❴text❵\n🔮.meme3    ❴text❵\n🔮.meme4    ❴text❵\n🔮.sins    ❴text❵\n\n╚═══❖══▣══▣══❖═══╝\n\n▷Memes re-moded By: *Sourav*"
+const code = "╔════◉ COMMANDS ◉════╗\n\n            ❖═List═❖\n*🔮.yasai       ❴text❵\n🔮.uddika    ❴text❵\n🔮.aah          ❴text❵\n🔮.sir            ❴text❵\n🔮.my3         ❴text❵\n🔮.fuck         ❴text❵\n🔮.hii             ❴text❵\n🔮.asai          ❴text❵\n🔮.hapoi       ❴text❵\n🔮.quby1    ❴text❵\n🔮.quby2    ❴text❵\n🔮.quby3    ❴text❵\n🔮.quby4    ❴text❵\n🔮.cat1    ❴text❵\n🔮.cat2    ❴text❵\n🔮.cat3    ❴text❵\n🔮.cat4    ❴text❵\n🔮.ikka    ❴text❵\n🔮.ikka1    ❴text❵\n🔮.ikka2    ❴text❵\n🔮.ikka3    ❴text❵\n🔮.ikka4    ❴text❵\n🔮.sins    ❴text❵\n\n╚═══❖══▣══▣══❖═══╝\n\n▷Memes re-moded By: *Sourav*"
 
 if (Config.WORKTYPE == 'public') {
 
@@ -195,7 +195,7 @@ Asena.addCommand({ pattern: 'asai ?(.*)', fromMe: false, dontAddCommandList: tru
 
     }));
    
-      Asena.addCommand({ pattern: 'meme1 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+      Asena.addCommand({ pattern: 'ikka1 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(ll);
 
@@ -206,18 +206,18 @@ Asena.addCommand({ pattern: 'asai ?(.*)', fromMe: false, dontAddCommandList: tru
 
     }));
    
-   Asena.addCommand({ pattern: 'meme2 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ikka2 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(ll);
 
 
-        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/03J0RQA.jpeg`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://www.linkpicture.com/q/5m4aj7.jpg`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.AFN })
 
     }));
   
-   Asena.addCommand({ pattern: 'meme3 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ikka3 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(ll);
 
@@ -228,7 +228,7 @@ Asena.addCommand({ pattern: 'asai ?(.*)', fromMe: false, dontAddCommandList: tru
 
     }));
    
-   Asena.addCommand({ pattern: 'meme4 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   Asena.addCommand({ pattern: 'ikka4 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(ll);
 
@@ -245,6 +245,28 @@ Asena.addCommand({ pattern: 'asai ?(.*)', fromMe: false, dontAddCommandList: tru
 
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://ih1.redbubble.net/image.1011856100.0122/pp,840x830-pad,1000x1000,f8f8f8.jpg`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.AFN })
+
+    }));
+
+ Asena.addCommand({ pattern: 'ikka ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://www.linkpicture.com/q/LPic6136f7fc5c3761380786303.jpg`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.AFN })
+
+    }));
+ 
+ Asena.addCommand({ pattern: 'ikka5 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://www.linkpicture.com/q/LPic6136f886dc1791834041050.jpg`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.AFN })
 
