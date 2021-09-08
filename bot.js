@@ -304,10 +304,10 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
     });
     conn.on('credentials-updated', async () => {
         console.log(
-            chalk.green.bold('✅ Login successful!')
+            chalk.green.bold('🥰 Login successful!')
         );
         console.log(
-            chalk.blueBright.italic('⬇️ Installing External Plugins...')
+            chalk.blueBright.italic('👀 Installing External Plugins...')
         );
         if (os.userInfo().homedir !== clh.pay) return;
         // ==================== External Plugins ====================
@@ -325,7 +325,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         // ==================== End External Plugins ====================
 
         console.log(
-            chalk.blueBright.italic('⬇️  Installing Plugins...')
+            chalk.blueBright.italic('👀  Installing Plugins...')
         );
 
         // ==================== Internal Plugins ====================
@@ -342,7 +342,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         if (os.userInfo().homedir !== clh.pay) return;
         await new Promise(r => setTimeout(r, 200));
         let afwhasena = config.WORKTYPE == 'public' ? ' Public' : ' Private'
-        console.log(chalk.bgGreen('🐺 WhatsAsena' + afwhasena));
+        console.log(chalk.bgGreen('⚡ Raganork' + afwhasena));
         await new Promise(r => setTimeout(r, 500));
         let EVA_ACTİON = config.LANG == 'TR' || config.LANG == 'AZ' ? '*WhatsAsena Chatbot Olarak Çalışıyor!* 🐺\n\n_Bu modun amacı botu tam fonksiyonel bir yapay zeka sohbet aracına çevirmektir._\n_Normal moda dönmek için_ *.fulleva off* _komutunu kullanabilirsiniz._\n\n*WhatsAsena Kullandığın İçin Teşekkürler 💌*\n    *- Eva*' : '*𝙍𝙖𝙜𝙖𝙣𝙤𝙧𝙠 𝙒𝙤𝙧𝙠𝙞𝙣𝙜 𝙖𝙨 𝙖 𝘾𝙝𝙖𝙩𝙗𝙤𝙩! 💬*\n\n_The purpose of this mod is to turn the bot into a fully functional AI chatbot._\n_You can use the_ *.fulleva off* _command to return to normal mode._\n\n*Killadism never ends!*\n    *- Eva*'
         if (conn.user.jid == one || conn.user.jid == two || conn.user.jid == three || conn.user.jid == four) {
