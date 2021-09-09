@@ -388,7 +388,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '\n 𝙍𝙖𝙜𝙖𝙣𝙤𝙧𝙠 𝙧𝙪𝙣𝙣𝙞𝙣𝙜 𝙖𝙨 𝙋𝙪𝙗𝙡𝙞𝙘 🥳\n', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '\n 𝙍𝘼𝙂𝘼𝙉𝙊𝙍𝙆 𝙎𝙏𝘼𝙍𝙏𝙀𝘿 ✅\n', MessageType.text);
                 }               
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
