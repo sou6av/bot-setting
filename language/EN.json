@@ -75,7 +75,7 @@
             "RESTART_DESC": "Restart WhatsAsena",
             "RESTART_MSG": "```Restarting...🧚‍♂️```",
             "SHUTDOWN_DESC": "Shutdown WhatsAsena",
-            "SHUTDOWN_MSG": "```Shutting down 😴```",
+            "SHUTDOWN_MSG": "```Njan pova... Bei 😕```",
             "DYNO_DESC": "Check heroku dyno usage",
             "DYNO_TOTAL": "```Total Quota```",
             "DYNO_USED": "```Quota used```",
@@ -166,8 +166,8 @@
         },
         "removebg": {
             "REMOVEBG_DESC": "Removes the background of the photos.",
-            "NEED_PHOTO": "*photo thaa mister!*",
-            "NO_API_KEY": "*Api key illa aliyaa*\n```remove.bg login for apikey```",
+            "NEED_PHOTO": "*photo thaa mwonu!*",
+            "NO_API_KEY": "*Nee API key koduthittilla*\n```remove.bg login for apikey```",
             "RBGING": "```Removing...```"
         },
         "scrapers": {
@@ -216,14 +216,14 @@
         },
         "updater": {
             "UPDATER_DESC": "Checks the update.",
-            "UPDATE": "*Your bot is completely up-to-date!*",
+            "UPDATE": "*YOU ARE USING THE LATEST VERSION OF RAGANORK 🥳!*",
             "NEW_UPDATE": "*𝐑𝐀𝐆𝐀𝐍𝐎𝐑𝐊 Update Available*\n\n please ask support group before updating. Otherwise chance to get error\n https://chat.whatsapp.com/G18G7QjUqi6GqkWvUwre4u \n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "```Updating..‍⚡```",
+            "UPDATING": "*UPDATING...* (oru 5-8 minute aavum)",
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
-            "UPDATED": "*Updated ⚡✅*",
+            "UPDATED": "*UPDATE AAYI 😅*",
             "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*⚡ 𝐑𝐀𝐆𝐀𝐍𝐎𝐑𝐊 Restarting ⚡*"
+            "AFTER_UPDATE": "*⚡ _𝙍𝘼𝙂𝘼𝙉𝙊𝙍𝙆 RESTARTING_ ⚡*"
         },
         "weather": {
             "WEATHER_DESC": "Shows the weather.",
