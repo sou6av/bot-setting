@@ -1,5 +1,6 @@
 const Asena = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
+const config = require('../config');
 const axios = require('axios');
 
 const Language = require('../language');
@@ -11,7 +12,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
     
     
    
-  r_text[0] = "https://github.com/souravkl11/raganork/raw/master/New%20logo.jpg";
+  r_text[0] = config.LOGOSK;
     
     
     var i = Math.floor(1*Math.random())
