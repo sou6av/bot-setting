@@ -1,6 +1,7 @@
 const Asena = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
+const config = require('../config');
 
 const Language = require('../language');
 const Lang = Language.getString('wallpaper');
@@ -11,7 +12,7 @@ Asena.addCommand({pattern: 'audio', fromMe: false, desc: 'Gives audio commands'}
     
     
    
-  r_text[0] = "https://www.linkpicture.com/q/5lm9xq.jpg";
+  r_text[0] = config.LOGOSK;
     
     
     var i = Math.floor(1*Math.random())
