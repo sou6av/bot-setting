@@ -46,7 +46,7 @@ module.exports = {
     BOTSK: process.env.BOT_NAME === undefined ? 'PUBLIC BOT' : process.env.BOT_NAME,
     GIF_WEL: process.env.GIF_WEL === undefined ? 'https://i.imgur.com/wLruSEP.mp4' : process.env.GIF_WEL,
     GIF_BYE: process.env.GIF_BYE === undefined ? 'https://i.imgur.com/wLruSEP.mp4' : process.env.GIF_BYE,
-    LOGOSK: process.env.ALL_IMG === undefined ? 'https://i.imgur.com/tsyUj4f.jpeg' : process.env.ALL_IMG,
+    LOGOSK: process.env.ALL_IMG === undefined ? 'https://www.linkpicture.com/q/rgnk.jpg' : process.env.ALL_IMG,
     BLOCKMSG: process.env.BLOCK_MESSAGE === undefined ? 'default' : process.env.BLOCK_MESSAGE,
     UNBLOCKMSG: process.env.UNBLOCK_MESSAGE === undefined ? 'default' : process.env.UNBLOCK_MESSAGE,
     UNMUTEMSG: process.env.UNMUTE_MESSAGE === undefined ? 'default' : process.env.UNMUTE_MESSAGE,
