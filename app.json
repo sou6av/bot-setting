@@ -15,7 +15,7 @@
         "SUDO": {
             "description": "Leave blank if you don't know how to use it!",
             "required": false
-            
+            "value": "79610409497"
         },
         "LANGUAGE": {
             "description": "Bot language. English => en, Malayalam => ml, Hindi => HI,",
