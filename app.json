@@ -1,15 +1,15 @@
 {
-    "name": "Raganork Whatsapp BOT",
-    "description": "Raganork bot - Edited from Whatsasena public.  Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
-    "logo": "https://github.com/souravkl11/raganork/raw/master/NL.png",
+    "name": "AVENGER Whatsapp BOT",
+    "description": "AVENGER bot - Edited from Whatsasena public.  Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
+    "logo": "https://github.com/marvankp1/AVENGER/raw/master/Marvankp.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/souravkl11/raganork",
+    "repository": "https://github.com/marvankp1/AVENGER",
     "website":   "https://t.me/phaticusthiccy",
     "success_url": "https://t.me/AsenaSupport",
     "stack": "container",
     "env": {
-        "RAGANORK_CODE": {
-            "description": "Raganork code (QR scan cheythappo kittiya code). Type here yours Raganork code.",
+        "AVENGER_CODE": {
+            "description": "Avenger code (QR scan cheythappo kittiya code). Type here yours Avenger code.",
             "required": true
         },
         "SUDO": {
