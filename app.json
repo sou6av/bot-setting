@@ -26,15 +26,15 @@
             "required": false,
             "value": "true"
         },
-        "ANTİ_LİNK": {
-            "description": "Link Blocking System.",
+        "ALL_IMG": {
+            "description": "Paste your bot logo link here.",
             "required": true,
-            "value": "false"
+            "value": "https://www.linkpicture.com/q/rgnk.jpg"
         },
-        "AUTO_BİO": {
-            "description": "Set true for auto date, time in biography.",
+        "VERIFIED": {
+            "description": "Type your jid here.",
             "required": true,
-            "value": "false"
+            "value": "0@s.whatsapp.net"
         },
         "HANDLERS": {
             "description": "Komutlar için. For commands.",
@@ -111,7 +111,7 @@
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "\n ```Killadism never ends !!!```\n\n```Type``` *.assist* ```for commands```\n\n```𝐑𝐀𝐆𝐀𝐍𝐎𝐑𝐊```\n\n *Coded by Souravkl11*\n\n```Contact owner: wa.me/91xxxxxxxxxx```"
+            "value": "BOT IS ALIVE"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
@@ -133,10 +133,10 @@
             "required": false,
             "value": "default"
         },
-        "DEMOTE_MESSAGE": {
-            "description": "Customizable Demote Message! Use => default, to change back.",
+        "ALL_NUMBER": {
+            "description": "Type your number here",
             "required": false,
-            "value": "default"
+            "value": "wa.me/919074309534"
         },
         "AFK_MESSAGE": {
             "description": "Customizable AFK Message! Use => default, to change back.",
@@ -161,7 +161,7 @@
         "OWNER_NAME": {
             "description": "reply for .owner! Type your name here.",
             "required": false,
-            "value": "default"
+            "value": "sᴏᴜʀᴀᴠᴋʟ¹¹"
         },   
         "TAG_REPLY": {
             "description": "Enter jid of your number so that you get a audio reply when metioned example - 91xxxxxxxxxx@s.whatsapp.net - for india",
@@ -170,7 +170,7 @@
         "BOT_NAME": {
             "description": "heading for .assist command reply",
             "required": false,
-            "value": "•━━━━╼⤏𝐑𝐀𝐆𝐀𝐍𝐎𝐑𝐊⤎╾━━━•"
+            "value": "•━━━━╼ *BOT NAME* ╾━━━•"
              
         }
     },
