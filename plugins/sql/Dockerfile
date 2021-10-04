@@ -1824,7 +1824,6 @@ WORKDIR /root/WhatsAsenaDuplicated/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
 RUN yarn install --no-audit
-RUN git clone https://github.com/John-Baran/storage
 
 CMD ["node", "bot.js"]
     #API_ID = int(os.environ.get("API_ID", 1))
