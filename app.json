@@ -27,19 +27,24 @@
             "value": "true"
         },
         "ALL_IMG": {
-            "description": "Paste your bot logo link here.",
+            "description": "Paste your bot logo here.",
             "required": true,
             "value": "https://www.linkpicture.com/q/rgnk.jpg"
         },
+        "ALL_CAPTION": {
+            "description": "Give your caption here. Example: Made by Raganork.",
+            "required": true,
+            "value": "YOUR CAPTION HERE"
+        },
         "VERIFIED": {
-            "description": "Type your jid here.",
+            "description": "Jid given above the verified tick. Use 0 for official WhatsApp",
             "required": true,
             "value": "0@s.whatsapp.net"
         },
         "HANDLERS": {
-            "description": "Komutlar için. For commands.",
+            "description": "Prefix for commands. (.assist, !assist ,assist)",
             "required": true,
-            "value": "^[.!;]"
+            "value": "^[.!,]"
         },
         "FULL_EVA": {
             "description": "Turn your account into a chatbot!",
