@@ -1,11 +1,11 @@
 {
-    "name": "Raganork Whatsapp BOT",
+    "name": "Raganork",
     "description": "Raganork bot - Edited from Whatsasena public.  Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
-    "logo": "https://github.com/souravkl11/Raganork/raw/main/NL.png",
-    "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
+    "logo": "https://raw.githubusercontent.com/souravkl11/Raganork/master/NL.png",
+    "keywords": ["whatsapp", "userbot", "Button", "WhatsAsena", "bot", "api", "ai"],
     "repository": "https://github.com/souravkl11/raganork",
-    "website":   "https://t.me/phaticusthiccy",
-    "success_url": "https://t.me/AsenaSupport",
+    "website":   "https://bit.ly/raganork",
+    "success_url": "https://bit.ly/raganork",
     "stack": "container",
     "env": {
         "RAGANORK_CODE": {
@@ -13,8 +13,10 @@
             "required": true
         },
         "SUDO": {
-            "description": "Leave blank if you don't know how to use it!",
+            "description": "The number which you need to control the bot! ,0 is must!",
             "required": false
+            "value": "919074309534,0"
+
         },
         "LANGUAGE": {
             "description": "Bot language. English => en, Malayalam => ml, Hindi => HI,",
@@ -51,18 +53,8 @@
             "required": true,
             "value": "false"
         },
-        "NO_LOG": {
-            "description": "Set true if you don't want to see error log.",
-            "required": true,
-            "value": "false"
-        },
         "SEND_READ": {
             "description": "Write true if you want to throw seen.",
-            "required": true,
-            "value": "true"
-        },
-        "HEROKU": {
-            "description": "If it is running in Heroku, type true.",
             "required": true,
             "value": "true"
         },
@@ -73,27 +65,17 @@
         "MUTE_MESSAGE": {
             "description": "Customizable Mute Message! Use => default, to change back.",
             "required": false,
-            "value": "default"
+            "value": "Group mode changed to admins only!"
         },
         "BLOCK_CHAT": {
             "description": "Choose in which chat the bot won't work there. Ex: 905xxxx && 905xxxx-1xxx or 905xxxx,905xxx...",
             "required": false,
-            "value": "false"
-        },
-        "UNMUTE_MESSAGE": {
-            "description": "Customizable Unmute Message! Use => default, to change back.",
-            "required": false,
-            "value": "default"
+            "value": "919074309534-1632403322@g.us"
         },
         "BLOCK_MESSAGE": {
             "description": "Customizable Block Message! Use => default, to change back.",
             "required": false,
-            "value": "default"
-        },
-        "UNBLOCK_MESSAGE": {
-            "description": "Customizable Unblock Message! Use => default, to change back.",
-            "required": false,
-            "value": "default"
+            "value": "```Blocked!```"
         },
         "WORK_TYPE": {
             "description": "Raganork bot Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
@@ -103,11 +85,6 @@
         "HEROKU_APP_NAME": {
             "description": "Heroku APP Name.",
             "required": true
-        },
-        "DEBUG": {
-            "description": "Onnum type cheyyanda.",
-            "required": true,
-            "value": "false"
         },
         "REMOVE_BG_API_KEY": {
             "description": "visit https://remove.bg for api key",
@@ -121,12 +98,7 @@
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
             "required": false,
-            "value": "default"
-        },
-        "ADD_MESSAGE": {
-            "description": "Customizable Add Message! Use => default, to change back.",
-            "required": false,
-            "value": "default"
+            "value": "```Kicked out of the group!```"
         },
         "KICKME_MESSAGE": {
             "description": "Customizable Kickme Message! Use => default, to change back.",
@@ -136,30 +108,15 @@
         "PROMOTE_MESSAGE": {
             "description": "Customizable Promote Message! Use => default, to change back.",
             "required": false,
-            "value": "default"
+            "value": "```Congratulations, you are now an admin!```"
         },
         "ALL_NUMBER": {
             "description": "Type your number here",
             "required": false,
             "value": "wa.me/919074309534"
         },
-        "AFK_MESSAGE": {
-            "description": "Customizable AFK Message! Use => default, to change back.",
-            "required": false,
-            "value": "default"
-        },
-        "GAN_IMAGE": {
-            "description": "Type image link for Gan Style plugin.",
-            "required": true,
-            "value": "https://i.hizliresim.com/loUtAb.jpg"
-        },
         "NO_ONLINE": {
             "description": "Type true if you don't want to appear online.",
-            "required": false,
-            "value": "true"
-        },
-        "COFFEEHOUSE_API_KEY": {
-            "description": "Skip This Step!",
             "required": false,
             "value": "true"
         },
@@ -175,7 +132,7 @@
         "BOT_NAME": {
             "description": "heading for .assist command reply",
             "required": false,
-            "value": "•━━━━╼ *BOT NAME* ╾━━━•"
+            "value": "𝐘𝐨𝐮𝐫 𝐁𝐨𝐭 𝐍𝐚𝐦𝐞 𝐇𝐞𝐫𝐞!"
              
         }
     },
