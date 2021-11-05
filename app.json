@@ -1,11 +1,11 @@
 {
     "name": "Raganork",
-    "description": "Raganork bot - Edited from Whatsasena public.  Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
-    "logo": "https://github.com/souravkl11/Raganork/raw/main/NL.png",
-    "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/souravkl11/raganork",
-    "website":   "https://t.me/phaticusthiccy",
-    "success_url": "https://t.me/AsenaSupport",
+    "description": "Raganork bot - Extra featured, fully customisable WhatsApp Public/User bot.",
+    "logo": "https://www.linkpicture.com/q/rgnk.jpg",
+    "keywords": ["WhatsApp", "Userbot", "Raganork", "WhatsAsena", "bot", "api", "ai"],
+    "repository": "https://github.com/souravkl11/Raganork",
+    "website":   "https://bit.ly/Raganork",
+    "success_url": "https://bit.ly/Raganork",
     "stack": "container",
     "env": {
         "RAGANORK_CODE": {
@@ -27,9 +27,9 @@
             "value": "true"
         },
         "ALL_IMG": {
-            "description": "Paste your bot logo here.",
+            "description": "Give an image link for your bot!",
             "required": true,
-            "value": "https://www.linkpicture.com/q/rgnk.jpg"
+            "value": ""
         },
         "ALL_CAPTION": {
             "description": "Give your caption here. Example: Made by Raganork.",
@@ -44,56 +44,21 @@
         "HANDLERS": {
             "description": "Prefix for commands. (.assist, !assist ,assist)",
             "required": true,
-            "value": "^[.!,]"
+            "value": "^[,@#!.]"
         },
-        "FULL_EVA": {
+        "AI": {
             "description": "Turn your account into a chatbot!",
             "required": true,
             "value": "false"
-        },
-        "NO_LOG": {
-            "description": "Set true if you don't want to see error log.",
-            "required": true,
-            "value": "false"
-        },
-        "SEND_READ": {
-            "description": "Write true if you want to throw seen.",
-            "required": true,
-            "value": "true"
-        },
-        "HEROKU": {
-            "description": "If it is running in Heroku, type true.",
-            "required": true,
-            "value": "true"
         },
         "HEROKU_API_KEY": {
             "description": "Heroku API Key. (You can find it in account settings)",
             "required": true
         },
-        "MUTE_MESSAGE": {
-            "description": "Customizable Mute Message! Use => default, to change back.",
-            "required": false,
-            "value": "default"
-        },
         "BLOCK_CHAT": {
-            "description": "Choose in which chat the bot won't work there. Ex: 905xxxx && 905xxxx-1xxx or 905xxxx,905xxx...",
+            "description": "Choose in which chat the bot won't work there. Ex: 91xxxx && 91xxxx-1xxx or 91xxxxx,91xxxx...",
             "required": false,
-            "value": "false"
-        },
-        "UNMUTE_MESSAGE": {
-            "description": "Customizable Unmute Message! Use => default, to change back.",
-            "required": false,
-            "value": "default"
-        },
-        "BLOCK_MESSAGE": {
-            "description": "Customizable Block Message! Use => default, to change back.",
-            "required": false,
-            "value": "default"
-        },
-        "UNBLOCK_MESSAGE": {
-            "description": "Customizable Unblock Message! Use => default, to change back.",
-            "required": false,
-            "value": "default"
+            "value": "919074309534"
         },
         "WORK_TYPE": {
             "description": "Raganork bot Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
@@ -104,11 +69,6 @@
             "description": "Heroku APP Name.",
             "required": true
         },
-        "DEBUG": {
-            "description": "Onnum type cheyyanda.",
-            "required": true,
-            "value": "false"
-        },
         "REMOVE_BG_API_KEY": {
             "description": "visit https://remove.bg for api key",
             "required": false
@@ -116,55 +76,50 @@
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "BOT IS ALIVE"
+            "value": "BOT IS CURRENTLY RUNNING WITH NO ERRORS!"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
             "required": false,
-            "value": "default"
+            "value": "_See you later!_"
         },
-        "ADD_MESSAGE": {
-            "description": "Customizable Add Message! Use => default, to change back.",
+        "SONGD": {
+            "description": "Customizable song uploading message!",
             "required": false,
-            "value": "default"
+            "value": "_Uploading song.._"
         },
         "KICKME_MESSAGE": {
             "description": "Customizable Kickme Message! Use => default, to change back.",
             "required": false,
-            "value": "default"
+            "value": "_I'm leaving, Bye!_"
         },
-        "PROMOTE_MESSAGE": {
-            "description": "Customizable Promote Message! Use => default, to change back.",
-            "required": false,
-            "value": "default"
+        "SONGD": {
+            "description": "Customizable song downloading message!",
+            "required": true,
+            "value": "_Searching song.._"
         },
         "ALL_NUMBER": {
             "description": "Type your number here",
             "required": false,
             "value": "wa.me/919074309534"
         },
-        "AFK_MESSAGE": {
-            "description": "Customizable AFK Message! Use => default, to change back.",
-            "required": false,
-            "value": "default"
-        },
-        "GAN_IMAGE": {
-            "description": "Type image link for Gan Style plugin.",
+        "V_HEADER": {
+            "description": "Shows on top of verified tick. Type any words here.",
             "required": true,
-            "value": "https://i.hizliresim.com/loUtAb.jpg"
+            "value": "Type antything here"
         },
         "NO_ONLINE": {
             "description": "Type true if you don't want to appear online.",
             "required": false,
             "value": "true"
         },
-        "COFFEEHOUSE_API_KEY": {
-            "description": "Skip This Step!",
+        "IG": {
+            "description": "Your instagram link(optional)!",
             "required": false,
-            "value": "true"
+            "value": "https://instagram.com/username"
         },
         "OWNER_NAME": {
-            "description": "reply for .owner! Type your name here.",
+            "description": "Owner name used in many commands! Type your name here.",
             "required": false,
             "value": "sᴏᴜʀᴀᴠᴋʟ¹¹"
         },   
