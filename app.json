@@ -31,6 +31,11 @@
             "required": true,
             "value": "https://i.pinimg.com/originals/0e/c8/8c/0ec88ca1469125fc11b4ce76830602f4.jpg"
         },
+        "DIALOGUE": {
+            "description": "Give an image link for your bot!",
+            "required": true,
+            "value": "Killadism never ends! (Change this)"
+        },
         "ALL_CAPTION": {
             "description": "Give your caption here. Example: Made by Raganork.",
             "required": true,
